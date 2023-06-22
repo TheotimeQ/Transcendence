@@ -5,6 +5,7 @@ class Game_Service {
     private static instance : Game_Service;
     private token: string;
     private router = useRouter();
+    private searching : boolean = false;
   
     constructor(token: any) {
         this.token = token;
@@ -77,9 +78,45 @@ class Game_Service {
     public async Get_Game_List(): Promise<any> {
         const response = await this.FetchData('games/getall' , 'GET');
         const data = await response.json();
-        // if (data.success === false)
-        //     return data;
         return data.data;
+    }
+
+    //Mets le joueur dans la file d'attente
+    public async Start_Matchmaking(): Promise<any> {
+        const response = await this.FetchData('games/matchmake/start ' , 'POST');
+        const data = await response.json();
+        this.searching = data.success;
+        console.log("Searching on start : " + this.searching);
+        this.Update_Matchmaking();
+        return data.success;
+    }
+
+    //Sors le joueur de la file d'attente
+    public async Stop_Matchmaking(): Promise<any> {
+        const response = await this.FetchData('games/matchmake/stop ' , 'POST');
+        const data = await response.json();
+        this.searching = false;
+        console.log("Searching on stop : " + this.searching);
+        return data.success;
+    }
+
+    //Demande si le joueur à trouvé une game
+    public async Update_Matchmaking(): Promise<any> {
+        const response = await this.FetchData('games/matchmake/update ' , 'GET');
+        const data = await response.json();
+        if (data.success === true)
+        {
+            if (data.message == "Game found"){
+                const url = 'home/game/' + data.data.id;
+                this.router.push(url);
+                return false;
+            }
+            if (this.searching === true)
+                setTimeout(() => { this.Update_Matchmaking(); }, 1000);
+
+            return true;
+        }
+        return false;
     }
 }
 

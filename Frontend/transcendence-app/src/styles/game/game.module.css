@@ -4,13 +4,35 @@
     height: 100%;
 }
 
-.main {
+.main_resume{
     min-height: 100%;
     background: #000000;
     font-family: 'Inter', sans-serif;
     padding: 30px;
     display: flex;
     flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    color: white;
+}
+
+.resume_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100%;
+    background: #000000;
+    font-family: 'Inter', sans-serif;
+    padding: 30px;
     justify-content:space-between;
 }
 
@@ -41,6 +63,21 @@
     margin-bottom: 10px;
     flex-grow: 0;
 }
+
+.loading_page {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .loading_page h1 {
+    align-self: center;
+  }
+  
 
 .loading {
     height: 100%;

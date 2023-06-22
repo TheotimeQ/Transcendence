@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 //Import les composants
 import Matchmaking_Button from '@/components/game/Matchmaking_Button'
 import Matchmaking_Game_List from '@/components/game/Matchmaking_Game_List'
+import Search_Box from '@/components/game/Popup_Search'
 
 //Import le profil
 import Profile from "@/services/Profile.service";
@@ -26,6 +27,7 @@ export default function Game_Lobby({ profile, token }: Props) {
     //Pour le chargement ingame not in game
     const [isLoading, setIsLoading] = useState(true);
     const [inGame, setInGame] = useState(false);
+    const [inMatchMaking, setinMatchMake] = useState(false);
     const [gameId, setGameId] = useState("undefined");
 
     //Pour la creation de la game
@@ -59,6 +61,18 @@ export default function Game_Lobby({ profile, token }: Props) {
     };
 
     //Fonction pour rejoindre une game
+    const Start_Matchmake = async () => {
+        const res = await Game.Start_Matchmaking();
+        setinMatchMake(res);
+    };
+
+    //Fonction pour rejoindre une game
+    const Stop_Matchmake = async () => {
+        await Game.Stop_Matchmaking();
+        setinMatchMake(false);
+    };
+
+    //Fonction pour rejoindre une game
     const Create_Game = async (gameId : string) => {
         if (gameName == ""){
             setCreateError("Veuillez entrer un nom de partie");
@@ -79,16 +93,23 @@ export default function Game_Lobby({ profile, token }: Props) {
 
     //Si la page n'est pas chargé
     if (isLoading) {
-        return <p>Loading...</p>; 
+        return (
+            <main className={styles.loading_page}>
+                <h1>Chargement...</h1>
+            </main>
+        )
     }
 
     //Si le joueur est en game
     if (!isLoading && inGame){
         return (
-            <main className={styles.main}>
-                {/* Boutons reprendre ou quitter*/}
-                { inGame && <Matchmaking_Button text="Reprendre la partie" onClick={() => Game.Resume_Game(gameId)} img="game/check"/>}
-                { inGame && <Matchmaking_Button text="Quitter la partie" onClick={Quit_Game} img="game/check"/>}
+            <main className={styles.main_resume}>
+                <h1>Vous êtes en game</h1>
+                <div className={styles.resume_box}>
+                    {/* Boutons reprendre ou quitter*/}
+                    { inGame && <Matchmaking_Button text="Reprendre la partie" onClick={() => Game.Resume_Game(gameId)} img="game/check"/>}
+                    { inGame && <Matchmaking_Button text="Quitter la partie" onClick={Quit_Game} img="game/check"/>}
+                </div>
             </main>
         );
     }
@@ -109,8 +130,11 @@ export default function Game_Lobby({ profile, token }: Props) {
                         <div> <p className={styles.error}>{createError}</p>    </div>
                     </div>
                     <Matchmaking_Button text="Créer une partie" onClick={Create_Game} img="game/check"/>
-                    <Matchmaking_Button text="Randomize" onClick={Game.Test} img="game/check"/>
-                </div>              
+                    <Matchmaking_Button text="Randomize" onClick={Start_Matchmake} img="game/check"/>
+                </div>    
+
+                {/* Popup matchmake */}
+                { inMatchMaking && <Search_Box funct={(Stop_Matchmake)} />} 
             </main>
         );
     }

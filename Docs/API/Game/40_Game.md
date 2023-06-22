@@ -331,7 +331,6 @@
   {
       "success": "False",
       "message": "You are not looking for game",
-                 "You are already in game"
   }
 
   statusCode : 200
@@ -349,7 +348,7 @@
       "success": "True",
       "message": "Game found"
       "data": {
-            "game_id" : "2zfe4f689ze6f4f6z4f468z5ef1z6e84"
+            "id" : "2zfe4f689ze6f4f6z4f468z5ef1z6e84"
             "player_waiting" : "5"
       }
   }

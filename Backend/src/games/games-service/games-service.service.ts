@@ -182,8 +182,8 @@ export class GamesService {
                     uuid            : games[i].uuid,
                     Name            : games[i].Name,
                     Password        : true ? games[i].Password != "" : false,
-                    Host            : games[i].Host,
-                    Opponent        : games[i].Opponent,
+                    Host            : games[i].Host,               // [!] Recuperer le nom du player
+                    Opponent        : games[i].Opponent,           // [!] Recuperer le nom du player
                     Viewers_List    : games[i].Viewers_List.length,
                     Score_Host      : games[i].Score_Host,
                     Score_Opponent  : games[i].Score_Opponent,
@@ -337,9 +337,14 @@ export class GamesService {
 
             //Check si le joueur est deja dans une game
             if (await this.CheckIfAlreadyInGame(req.user.id)) {
+                const game = await this.GetGameId(req.user.id);
                 const Data = {
-                    success: false,
-                    message: "You are already in a game",
+                    success: true,
+                    message: "Game found",
+                    data: {
+                        id : game.uuid,
+                        player_waiting : await this.GetNumberOfPlayerInMatchmaking(),
+                    }
                 };
                 return Data;
             }
@@ -372,6 +377,7 @@ export class GamesService {
                 message: "Waiting for opponent",
                 player_waiting : await this.GetNumberOfPlayerInMatchmaking(),
             };
+            return Data;
 
         } catch (error) {
             const Data = {
@@ -381,12 +387,6 @@ export class GamesService {
             };
             return Data;
         }
-
-        const Data = {
-            success: false,
-            message: "Case not handled",
-        };
-        return Data;
     }
 
     //Si le joueur est en game renvoi "In game" et l'id de la game, si le joueur en Matchmaking le retire de la liste
@@ -511,8 +511,10 @@ export class GamesService {
                 const user2 = all_user[1];
                 await this.MatchMakeRepository.remove(user1);
                 await this.MatchMakeRepository.remove(user2);
+
                 // [!] Recuperer les nom des joueurs ( demander draker si on à une fonction sur la table user pour recuperer le nom du joueur)
-                const game_id = await this.CreateGameInDB(user1.Player_Id, user1 + " vs " + user2, "");
+
+                const game_id = await this.CreateGameInDB(user1.Player_Id, user1 + " vs " + user2.Player_Id, "");
                 await this.AddPlayerToGame(game_id, user2.Player_Id);
                 return game_id;
             }
@@ -538,13 +540,13 @@ export class GamesService {
     // Check si le joueur est déjà dans une partie et que la partie est en "Waiting ou InProgress" et renvoi son id de game
     async GetGameId(user_id :number): Promise<any> {
         if (user_id != null) {
-            const host = await this.GameRepository.findOne({ where: { Host : user_id, Status : "Waiting" || "InProgress" } });
-            if (host != null) {
-                return host;
+            let game = await this.GameRepository.findOne({ where: { Host : user_id, Status : "Waiting" || "InProgress" } });
+            if (game != null) {
+                return game;
             }
-            const opponent = await this.GameRepository.findOne({ where: { Opponent : user_id, Status : "Waiting" || "InProgress" } });
-            if (opponent != null) {
-                return opponent;
+            game = await this.GameRepository.findOne({ where: { Opponent : user_id, Status : "Waiting" || "InProgress" } });
+            if (game != null) {
+                return game;
             }
         }
         return false;
