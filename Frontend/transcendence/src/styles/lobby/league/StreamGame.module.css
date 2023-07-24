@@ -1,11 +1,28 @@
 
 .StreamGame {
     width: 100%;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid var(--secondary) 3px;
+    margin: 10px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+.StreamGame h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 .gamelist {
-    height: 200px;
+    height: 100%;
     width: 100%;
+    overflow-y: scroll;
 }
 
 .game {
@@ -15,6 +32,14 @@
     justify-content: center;
     height: 50px;
     align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.game:hover {
+    background-color: rgb(64, 68, 64, 0.5);
 }
 
 .game p {
@@ -28,4 +53,13 @@
     width: 100px;
     height: 50px;
     margin: 10px;
+}
+
+.watchbutton:hover {
+    background-color: var(--tertiary-lighter1);
+}
+
+.resume {
+    width: 50%;
+    height: 100%;
 }

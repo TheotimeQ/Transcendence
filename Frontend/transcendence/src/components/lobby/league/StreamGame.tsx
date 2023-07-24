@@ -1,4 +1,5 @@
 import styles from "@/styles/lobby/league/StreamGame.module.css";
+import { useState } from "react";
 
 type Props = {
 	Lobby: any;
@@ -7,16 +8,41 @@ type Props = {
 
 export default function StreamGame({ Lobby, json }: Props) {
 
+	console.log(json);
+
+	const [gameSelected, setGame] = useState<GameRanked>( {} as GameRanked);
+
+	const handleHover = (game : GameRanked) => {
+		setGame(game);
+	}
+
+	if (json.length === 0) {
+
+		return (
+			<div className={styles.StreamGame}>
+
+				<h1>Watch game</h1>
+
+				<p className={styles.loading}>Recherche en cours...</p>
+				
+			</div>
+		)
+	}
+
 	return (
 
 		<div className={styles.StreamGame}>
 
+			<h1>Watch game</h1>
+
+			<div className={styles.resume}>
+				<p>{gameSelected.Host}</p>
+				<p>{gameSelected.Opponent}</p>
+			</div>
+
 			<div className={styles.gamelist}>
-				<h1>Game list</h1>
-                {json.length === 0 && (<p className={styles.loading}>Recherche en cours...</p>)}
-                {json.length > 0   && json.map((game: any, index: number) => (
-                    <div className={styles.game} key={index}>
-						<p>{game.uuid}</p>
+                {json.map((game: any, index: number) => (
+                    <div className={styles.game} key={index} onMouseEnter={() => handleHover(game)} >
                         <p>{game.Name}</p>
                         <p>{game.Host}</p>
                         <p>{game.Opponent}</p>

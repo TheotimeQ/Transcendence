@@ -12,8 +12,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
   font-size: 14px;
   margin-top: 5px;
   width: 33%;
@@ -23,7 +22,6 @@
   color: var(--primary);
   background-color: var(--secondary-lighter2-light);
   border: 5px solid var(--secondary-lighter2-light);
-  border-bottom: none;
   transition: all 0.3s ease-in;
 }
 
@@ -31,12 +29,10 @@
   color: var(--secondary-lighter2);
   background-color: var(--primary-darker);
   border: 5px solid var(--secondary-lighter2);
-  border-bottom: none;
   transition: all 0.3s ease-out;
 }
 
 .inactiveBtn:hover {
   color: var(--accent-lighter1);
   border: 5px solid var(--accent-lighter1);
-  border-bottom: none;
 }

@@ -5,26 +5,3 @@
     align-items: center;
     width: 100%;
 }
-
-.searchBtn {
-    appearance: none;
-    padding: 6px 20px;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: all 0.3s ease-in;
-    margin-bottom: 20px;
-    margin-inline: 20px;
-    color: var(--primary);
-    background-color: var(--secondary);
-    border: 3px solid var(--accent);
-}
-
-.searchBtn:checked {
-    transition: all 0.3s ease-out;
-}
-
-.searchBtn:hover {
-    color: var(--accent);
-    border: 3px solid var(--accent-lighter1);
-}

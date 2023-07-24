@@ -1,16 +1,89 @@
 
 .leaderboard {
+    height: 300px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: bottom;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid var(--secondary) 3px;
+    position: relative;
+}
+
+.leaderboard h1 {
+    position: absolute;
+    top: 20px;
 }
 
 .podium {
-    height: 200px;
-    width: 100%;
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 20px;
+
+    color: black;
+    font-size: 2rem;
+}
+
+.pad {
+    background-color: antiquewhite;
+}
+
+.pad p {
+    margin: 0;
+    padding: 20px;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.podium p {
+    padding: 15px;
+}
+
+.first {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.first .pad {
+    height: 50%;
+}
+
+.second .pad {
+    height: 35%;
+}
+
+.third .pad {
+    height: 25%;
+}
+
+.second {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.third {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .playerlist {
-    height: 400px;
-    width: 100%;
+    height: 100%;
+    width: 60%;
+    overflow-y: scroll;
+
 }
 
 .player {
@@ -18,9 +91,20 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.player:hover {
+    background-color: rgb(64, 68, 64, 0.5);
 }
 
 .player p {
     margin: 0;
     padding: 10px;
+    width: 150px;
+    font-size: 1.5rem;
+    text-align: left;
 }

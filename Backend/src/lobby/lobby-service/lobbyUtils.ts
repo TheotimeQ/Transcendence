@@ -307,53 +307,84 @@ export class LobbyUtils {
 			where: { Status: 'Finished', Type: 'Ranked' },
 		});
 
+		const test = 
+		[
+			{
+				login: "Zel",
+				score: 666,
+				rank: 0,
+			},
+			{
+				login: "Loup",
+				score: 456,
+				rank: 0,
+			},
+			{
+				login: "Periol",
+				score: 42,
+				rank: 0,
+			},
+			{
+				login: "Boisson",
+				score: 17,
+				rank: 0,
+			},
+			{
+				login: "Testt",
+				score: 17,
+				rank: 0,
+			},
+		]
+		
+		return test;
+			
 		//Pour chaque game
-		const all_player : Player[] = [];
-		for (let i = 0; i < all_game.length; i++) {
+		// const all_player : Player[] = [];
+		// for (let i = 0; i < all_game.length; i++) {
 			
-			//Recupere les logins
-			const Host_Login = await this.GetPlayerName(all_game[i].Host);
-			const Opponent_Login = await this.GetPlayerName(all_game[i].Opponent);
+		// 	//Recupere les logins
+		// 	const Host_Login = await this.GetPlayerName(all_game[i].Host);
+		// 	const Opponent_Login = await this.GetPlayerName(all_game[i].Opponent);
 
-			//Si le host n'est pas dans le dict
-			if (Host_Login != "Unknown")
-			{
-				if (all_player[Host_Login] == null) {
-					all_player[Host_Login] = {
-						login: Host_Login,
-						score: all_game[i].Score_Host,
-						rank: 0,
-					};
-				}
+		// 	//Si le host n'est pas dans le dict
+		// 	if (Host_Login != "Unknown")
+		// 	{
+		// 		if (all_player[Host_Login] == null) {
+		// 			all_player[Host_Login] = {
+		// 				login: Host_Login,
+		// 				score: all_game[i].Score_Host,
+		// 				rank: 0,
+		// 			};
+		// 		}
 	
-				else {
-					all_player[Host_Login].score += all_game[i].Score_Host;
-				}
-			}
+		// 		else {
+		// 			all_player[Host_Login].score += all_game[i].Score_Host;
+		// 		}
+		// 	}
 
-			if (Opponent_Login != "Unknown")
-			{
-				//Si l'opponent n'est pas dans le dict
-				if (all_player[Opponent_Login] == null) {
-					all_player[Opponent_Login] = {
-						login: Opponent_Login,
-						score: all_game[i].Score_Opponent,
-						rank: 0,
-					};
-				}
-				else {
-					all_player[Opponent_Login].score += all_game[i].Score_Opponent;
-				}
-			}
+		// 	if (Opponent_Login != "Unknown")
+		// 	{
+		// 		//Si l'opponent n'est pas dans le dict
+		// 		if (all_player[Opponent_Login] == null) {
+		// 			all_player[Opponent_Login] = {
+		// 				login: Opponent_Login,
+		// 				score: all_game[i].Score_Opponent,
+		// 				rank: 0,
+		// 			};
+		// 		}
+		// 		else {
+		// 			all_player[Opponent_Login].score += all_game[i].Score_Opponent;
+		// 		}
+		// 	}
 			
-			//Trie le dict par score et update le rank
-			const sorted = Object.values(all_player).sort((a, b) => b.score - a.score);
-			for (let i = 0; i < sorted.length; i++) {
-			  sorted[i].rank = i + 1;
-			}
+		// 	//Trie le dict par score et update le rank
+		// 	const sorted = Object.values(all_player).sort((a, b) => b.score - a.score);
+		// 	for (let i = 0; i < sorted.length; i++) {
+		// 	  sorted[i].rank = i + 1;
+		// 	}
 
-			return sorted;
-		}
+		// 	return sorted;
+		// }
 		
 		return [];
 	}

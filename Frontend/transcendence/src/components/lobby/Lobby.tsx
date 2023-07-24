@@ -44,7 +44,7 @@ export default function Lobby({ profile, token }: Props) {
         <div className={styles.lobby}>
             <NavLobby menu={menu} setMenu={setMenu} />
             <div className={styles.content}>
-                {menu == "League" && (<League Matchmaking={Matchmaking} isLoading={isLoading} token={token}/>)}
+                {menu == "League" && (<League Matchmaking={Matchmaking} token={token}/>)}
                 {menu == "Party" &&  (<Party Lobby={Lobby} isLoading={isLoading} token={token} />)}
                 {menu == "History" && <History Lobby={Lobby} isLoading={isLoading} />}
             </div>
