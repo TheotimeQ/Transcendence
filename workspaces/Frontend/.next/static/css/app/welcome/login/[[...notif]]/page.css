@@ -1,0 +1,249 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/welcome/login/LogEmail.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.LogEmail_logEmail__Ui7gv {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+}
+
+.LogEmail_description__mPeAC {
+  text-align: center;
+  font-size: clamp(16px, 1vw, 30px);
+  margin-bottom: clamp(20px, 5vh, 80px);
+}
+
+.LogEmail_input__xoWsH {
+  appearance: none;
+  border-radius: 4px;
+  font-size: clamp(16px, 1vw, 30px);
+  font-weight: bold;
+  color: var(--secondary1);
+  background-color: var(--primary1);
+  border: 3px solid var(--secondary1);
+  padding: 6px;
+  width: 90%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.LogEmail_input__xoWsH::placeholder {
+  color: var(--tertiary1);
+  font-weight: bold;
+}
+
+.LogEmail_input__xoWsH:focus {
+  outline: none;
+  border: 3px solid var(--accent1);
+}
+
+.LogEmail_email__BRC5o {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: clamp(10px, 3vh, 50px);
+  font-size: clamp(18px, 2vw, 30px);
+  font-weight: bold;
+  color: var(--tertiary1);
+  word-break: break-all;
+}
+
+.LogEmail_emailBtn__TNIYq {
+  cursor: pointer;
+  margin: auto 10px;
+}
+
+.LogEmail_notif__2jbdK {
+  padding-top: 10px;
+  color: var(--notif);
+  font-size: clamp(0.8rem, 1vh, 1.2rem);
+}
+
+.LogEmail_continueBtn__g7aNB {
+  appearance: none;
+  padding: 5px 20px;
+  border-radius: 4px;
+  font-size: clamp(18px, 2vw, 40px);
+  font-weight: bold;
+  /* transition: all 0.3s ease-in; */
+  margin-top: clamp(20px, 3vh, 80px);
+  margin-inline: 10px;
+  color: var(--tertiary1);
+  background-color: inherit;
+  border: 3px solid var(--accent1);
+  cursor: pointer;
+}
+
+/* .continueBtn:checked {
+  transition: all 0.3s ease-out;
+} */
+
+.LogEmail_continueBtn__g7aNB:hover {
+  color: var(--accent1);
+  border: 3px solid var(--accent2);
+}
+
+.LogEmail_openPassword__pB276 {
+  height: auto;
+  width: 100%;
+  opacity: 1;
+  transition: height 1s ease, opacity 0.5s ease;
+}
+
+.LogEmail_closePassword__izy3e {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.LogEmail_openPassword__pB276 p {
+  padding-top: clamp(10px, 1vh, 30px);
+  color: var(--accent1);
+  font-size: clamp(0.9rem, 1vw, 1.5rem);
+  font-family: var(--text-font);
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.LogEmail_openPassword__pB276 p span {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1500px) {
+  .LogEmail_input__xoWsH {
+    max-width: 900px;
+  }
+
+  .LogEmail_continueBtn__g7aNB {
+    min-width: 400px;
+  }
+}
+
+@media screen and (min-height: 2000px) {
+
+  .LogEmail_continueBtn__g7aNB {
+    margin-bottom: 50px;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/welcome/login/LogService.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.LogService_logService__PYAtt {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.LogService_description__nnN0n {
+  font-size: clamp(16px, 1vw, 30px);
+}
+
+.LogService_logImg__kebf3 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: clamp(140px, 20vw, 500px);
+  margin: 10px;
+  margin-top: 5vh;
+}
+
+.LogService_oneClick__AA_LN {
+  border: 2px solid var(--secondary1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(40px, 4vw, 100px);
+  height: clamp(40px, 4vw, 100px);
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: var(--bubble);
+  position: relative;
+}
+
+.LogService_oneClick__AA_LN:hover {
+  scale: 1.05;
+}
+
+.LogService_oneClick__AA_LN:active {
+  scale: 0.95;
+}
+
+.LogService_school__eDbBD {
+  padding: 0.5vw;
+}
+
+.LogService_google__x_Svd {
+  padding: 0.7vw;
+}
+
+@media screen and (min-height: 1500px) {
+  .LogService_logService__PYAtt {
+    margin-top: 50px;
+  }
+
+  .LogService_google__x_Svd {
+    padding: 0.4vw;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/welcome/login/Login.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.Login_logIn__5yH0o {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  min-height: 80vh;
+  margin: 0 auto;
+  padding: clamp(20px, 5vh, 100px);
+  background-color: var(--primary1);
+  border: 3px solid var(--accent3);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Login_title__TVyay {
+  text-align: center;
+  font-size: clamp(1.5rem, 3vw, 4rem);
+  font-weight: bold;
+  padding-bottom: clamp(20px, 5vh, 100px);
+}
+
+.Login_separator__NST9J {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.Login_separator__NST9J:before,
+.Login_separator__NST9J:after {
+  content: "";
+  border-bottom: 3px solid var(--secondary3);
+  flex: 1 0 auto;
+}
+
+.Login_separator__NST9J span {
+  text-align: center;
+  flex: 0.2 0 auto;
+  text-transform: uppercase;
+  font-family: var(--title-font);
+  font-size: clamp(16px, 1vw, 30px);
+  font-weight: bold;
+}
+
+.Login_success__1Cdjf {
+  padding-bottom: 10px;
+  color: var(--accent1);
+}
+

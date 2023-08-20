@@ -1,0 +1,29 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/notFound/NotFound.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.NotFound_main__ikopq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+.NotFound_main__ikopq h2 {
+  color: var(--accent1);
+}
+
+.NotFound_link__4tWHe {
+  padding: 20px;
+  text-decoration: none;
+  color: var(--tertiary1);
+}
+
+.NotFound_link__4tWHe:visited {
+  color: var(--tertiary1);
+}
+
+.NotFound_link__4tWHe span {
+  color: var(--accent2);
+}
+

@@ -1,0 +1,251 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/createLogin/ChooseColor.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.ChooseColor_main___vbmE {
+  width: clamp(200px, 80vw, 2000px);
+  display: flex;
+  overflow-x: auto;
+  margin: auto;
+  padding-top: clamp(8px, 1vh, 20px);
+  justify-content: flex-start;
+}
+
+.ChooseColor_main___vbmE::-webkit-scrollbar {
+  height: 2px;
+}
+
+.ChooseColor_main___vbmE::-webkit-scrollbar-track {
+  display: none;
+}
+
+.ChooseColor_main___vbmE::-webkit-scrollbar-thumb {
+  background-color: var(--accent1);
+}
+
+.ChooseColor_cercle__98aL2 {
+  flex: 0 0 auto;
+  width: clamp(20px, 3vh, 60px);
+  height: clamp(20px, 3vh, 60px);
+  border-radius: clamp(20px, 3vh, 60px);
+  margin: 0 10px;
+}
+
+.ChooseColor_cercle__98aL2:first-child {
+  margin-left: auto;
+}
+
+.ChooseColor_cercle__98aL2:last-child {
+  margin-right: auto;
+}
+
+.ChooseColor_cercle__98aL2.ChooseColor_selected__qWDMJ {
+  box-shadow: 0 0 10px 2px var(--accent2);
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/createLogin/ChooseAvatar.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.ChooseAvatar_main__cIvTt {
+  width: clamp(200px, 80vw, 2000px);
+  display: flex;
+  overflow-x: auto;
+  margin: auto;
+  padding: 20px;
+  justify-content: flex-start;
+  scrollbar-color: var(--accent1);
+  padding-bottom: clamp(10px, 3vh, 60px);
+  padding-top: clamp(0px, 2vh, 40px);
+}
+
+.ChooseAvatar_main__cIvTt::-webkit-scrollbar {
+  height: 2px;
+}
+
+.ChooseAvatar_main__cIvTt::-webkit-scrollbar-track {
+  display: none;
+}
+
+.ChooseAvatar_main__cIvTt::-webkit-scrollbar-thumb {
+  background-color: var(--accent1);
+}
+
+.ChooseAvatar_avatar__6Kkh5 {
+  flex: 0 0 auto;
+  width: clamp(60px, 8vh, 150px);
+  height: auto;
+  margin: 0 10px;
+}
+
+.ChooseAvatar_avatar__6Kkh5:first-child {
+  margin-left: auto;
+}
+
+.ChooseAvatar_avatar__6Kkh5:last-child {
+  margin-right: auto;
+}
+
+.ChooseAvatar_avatar__6Kkh5.ChooseAvatar_selected__k3gOS {
+  box-shadow: 0 0 10px 1px var(--secondary1);
+}
+
+.ChooseAvatar_chooseColor__7YljQ {
+  /* border: 1px solid green; */
+  padding-top: clamp(10px, 1vh, 30px);
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/createLogin/FormLogin.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.FormLogin_formLogin__y_k0P {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--primary1);
+  border-radius: 10px;
+  border: 3px solid var(--accent1);
+  text-align: center;
+}
+
+.FormLogin_title__uXCwD {
+  color: var(--tertiary1);
+  padding-top: clamp(0px, 6vh, 100px);
+  font-size: clamp(1.7rem, 3vh, 3rem);
+  padding-bottom: clamp(0px, 3vh, 60px);
+}
+
+.FormLogin_form__Mo7Cu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.FormLogin_description__baQoz {
+  color: var(--tertiary1);
+  font-size: clamp(1.1rem, 1.6vh, 2rem);
+  padding-bottom: 20px;
+  padding-bottom: 1vh;
+  padding-bottom: clamp(0px, 1vh, 20px);
+}
+
+.FormLogin_little__uhc5n {
+  font-size: clamp(0.7rem, 0.8vh, 1rem);
+  padding-bottom: clamp(0px, 2vh, 30px);
+  color: var(--tertiary1);
+}
+
+.FormLogin_nameContainer__VrJRA {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormLogin_login__ZjfYb {
+  appearance: none;
+  border-radius: 4px;
+  font-size: clamp(16px, 1vw, 30px);
+  font-weight: bold;
+  color: var(--secondary1);
+  background-color: var(--primary1);
+  border: 3px solid var(--secondary1);
+  padding: 6px;
+  width: 90%;
+  max-width: 200px;
+  text-align: left;
+}
+
+.FormLogin_login__ZjfYb::placeholder {
+  color: var(--tertiary1);
+  font-weight: bold;
+}
+
+.FormLogin_login__ZjfYb:focus {
+  outline: none;
+  border: 3px solid var(--accent1);
+}
+
+.FormLogin_randomBtn__E4_UN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  color: var(--secondary1);
+  border: 3px solid var(--secondary1);
+  background-color: var(--primary1);
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.FormLogin_randomBtn__E4_UN:active {
+  scale: 0.95;
+}
+
+.FormLogin_randomBtn__E4_UN:hover {
+  border: 3px solid var(--accent1);
+}
+
+.FormLogin_notif__JVCtF {
+  font-size: clamp(0.8rem, 1.2vh, 1.5rem);
+  color: var(--notif);
+  padding-top: clamp(5px, 1.2vh, 30px);
+}
+
+.FormLogin_choose__AXgwE {
+  padding-top: clamp(10px, 8vh, 250px);
+  font-size: clamp(1rem, 1.6vh, 2rem);
+  padding-bottom: clamp(0px, 2vh, 50px);
+}
+
+.FormLogin_avatars__9pz5o {
+  width: 100%;
+  align-items: center;
+}
+
+.FormLogin_confirmBtn__KQwbu {
+  appearance: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-size: clamp(18px, 2vw, 30px);
+  font-weight: bold;
+  margin-block: 20px;
+  margin-inline: 10px;
+  color: var(--tertiary1);
+  background-color: inherit;
+  border: 3px solid var(--accent1);
+  cursor: pointer;
+}
+
+.FormLogin_confirmBtn__KQwbu:hover {
+  color: var(--accent1);
+  border: 3px solid var(--accent2);
+}
+
+@media screen and (max-height: 1000px) {
+  .FormLogin_choose__AXgwE {
+    padding-top: clamp(0px, 3vh, 100px);
+  }
+
+  .FormLogin_avatars__9pz5o {
+    padding-bottom: clamp(0px, 3vh, 100px);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .FormLogin_login__ZjfYb {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-height: 1500px) {
+  .FormLogin_confirmBtn__KQwbu {
+    margin-top: 80px;
+  }
+}
+

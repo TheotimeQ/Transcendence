@@ -1,0 +1,1726 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/league/DefineType.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.DefineType_defineType__gTH9c {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.DefineType_defineType__gTH9c button {
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 10px;
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.DefineType_activeBtn__RyVx8 {
+    color: var(--primary1);
+    background-color: var(--secondary1);
+    border: 3px solid var(--accent1);
+    transition: all 0.3s ease-in;
+}
+
+.DefineType_inactiveBtn__AKcaZ {
+    color: var(--secondary1);
+    background-color: var(--primary1);
+    border: 3px solid var(--secondary1);
+    transition: all 0.3s ease-out;
+}
+
+.DefineType_inactiveBtn__AKcaZ:hover {
+    color: var(--accent1);
+    border: 3px solid var(--accent1);
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/league/Searching.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.Searching_Searching__AYr9e {
+    width: 100%;
+    background-color: var(--primary1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid var(--secondary1) 3px;
+    position: relative;
+}
+
+.Searching_Searching__AYr9e h1 {
+    position: absolute;
+    top: 20px;
+}
+
+.Searching_ImgBox__sgEQ6 {
+    height: 100px;
+    vertical-align: middle;
+}
+
+.Searching_ButtonBox__3i3Oa {
+    align-items: center;
+    padding: 10px;
+}
+
+.Searching_searchBtn__nH40T {
+    appearance: none;
+    padding: 6px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+    margin-inline: 20px;
+    color: var(--primary1);
+    background-color: var(--secondary1);
+    border: 3px solid var(--accent1);
+}
+
+.Searching_searchBtn__nH40T:checked {
+    transition: all 0.3s ease-out;
+}
+
+.Searching_searchBtn__nH40T:hover {
+    color: var(--accent2);
+    border: 3px solid var(--accent2);
+}
+
+.Searching_loading__v_92y {
+    padding-top: 30px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    animation: Searching_notification__Y3vb6 1.5s infinite;
+}
+
+@keyframes Searching_notification__Y3vb6 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .Searching_Searching__AYr9e {
+        display: flex;
+        flex-direction: column;
+        justify-content: bottom;
+        min-height: 250px;
+        padding-top: 80px;
+    }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/league/Leaderboard.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+
+.Leaderboard_leaderboard__aVNMp {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: bottom;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid var(--secondary1) 3px;
+    position: relative;
+}
+
+.Leaderboard_leaderboard__aVNMp h1 {
+    position: absolute;
+    top: 20px;
+}
+
+.Leaderboard_podium__6Ptde {
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 20px;
+
+    color: var(--accent3);
+    font-size: 2rem;
+}
+
+.Leaderboard_pad__g1Kcu {
+    background-color: var(--primary3);
+}
+
+.Leaderboard_pad__g1Kcu p {
+    margin: 0;
+    padding: 20px;
+    font-size: 2rem;
+    color: var(--primary1);
+    font-weight: bold;
+}
+
+.Leaderboard_podium__6Ptde p {
+    padding-bottom: 15px;
+}
+
+.Leaderboard_avatar__c77zN {
+    background-color: var(--secondary2);
+    border-radius: 50%;
+    border: solid var(--secondary1) 3px;
+}
+
+.Leaderboard_first__HpZau {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Leaderboard_first__HpZau .Leaderboard_pad__g1Kcu {
+    height: 50%;
+}
+
+.Leaderboard_second__vp5rr .Leaderboard_pad__g1Kcu {
+    height: 35%;
+}
+
+.Leaderboard_third__1VnjR .Leaderboard_pad__g1Kcu {
+    height: 25%;
+}
+
+.Leaderboard_second__vp5rr {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Leaderboard_third__1VnjR {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Leaderboard_playerlist__Lg2HX {
+    height: 100%;
+    width: 60%;
+    overflow-y: scroll;
+}
+
+.Leaderboard_playerlist__Lg2HX::-webkit-scrollbar-track {
+    background: var(--secondary1);
+}
+
+.Leaderboard_playerlist__Lg2HX::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.Leaderboard_playerlist__Lg2HX::-webkit-scrollbar-track {
+    background: var(--secondary1);
+}
+  
+.Leaderboard_playerlist__Lg2HX::-webkit-scrollbar-thumb {
+    background: var(--accent1);
+}
+
+.Leaderboard_playerlist__Lg2HX::-webkit-scrollbar-thumb:hover {
+    background: var(--accent1);
+}
+
+.Leaderboard_player__BN_Tk {
+    background-color: var(--secondary3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+}
+
+.Leaderboard_header__VUb0T {
+    background-color: var(--secondary2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: var(--title-font);
+    position: sticky;
+    top: 0px;
+}
+
+.Leaderboard_header__VUb0T p {
+    margin: 0;
+    padding: 10px;
+    width: 30%;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.Leaderboard_player__BN_Tk:hover {
+    background-color: var(--secondary1);
+}
+
+.Leaderboard_player__BN_Tk p {
+    margin: 0;
+    padding: 10px;
+    width: 30%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.Leaderboard_avatar_box__PfLAf {
+    width: 25%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Leaderboard_loading__qxMvI {
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .Leaderboard_leaderboard__aVNMp {
+        display: flex;
+        flex-direction: column;
+        justify-content: bottom;
+        min-height: 800px;
+    }
+
+    .Leaderboard_podium__6Ptde {
+        width: 100%;
+    }
+
+    .Leaderboard_playerlist__Lg2HX {
+        width: 100%;
+        height: 90%;
+    }
+
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/league/StreamGame.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+
+.StreamGame_StreamGame__fPFHW {
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid var(--secondary1) 3px;
+    margin: 10px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+.StreamGame_StreamGame__fPFHW h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.StreamGame_gamelist__nYOjW {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.StreamGame_game__CST_g {
+    background-color: var(--secondary3);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+}
+
+.StreamGame_header__65yTu {
+    background-color: var(--secondary2);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+}
+
+.StreamGame_header_name__admRP {
+    width: 25%;
+}
+
+.StreamGame_header_type__PgZ3D {
+    width: 13%;
+    text-align: start;
+}
+
+.StreamGame_header_host__QIYWH {
+    width: 100px;
+    text-align: right;
+}
+
+.StreamGame_header_vs__556rP {
+    width: 150px;
+}
+
+.StreamGame_header_opponent__pA0na {
+    width: 60px;
+}
+
+.StreamGame_game__CST_g:hover {
+    background-color: var(--secondary1);
+}
+
+.StreamGame_avatar_box_1__sZ4uH {
+    width: 25%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.StreamGame_avatar_box_2__9W6zI {
+    width: 20%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.StreamGame_game__CST_g p {
+    margin: 0px;
+    padding: 10px;
+}
+
+.StreamGame_game_name__6vWJ9 {
+    margin: 0px;
+    padding: 10px;
+    width: 25%;
+}
+
+.StreamGame_game_mode__s72Fu {
+    margin: 0px;
+    padding: 10px;
+    width: 10%;
+}
+
+.StreamGame_versus__Yl99l {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--accent1);
+    width: 50px;
+}
+
+.StreamGame_resume__2Khv3 {
+    width: 65%;
+    height: 100%;
+    background-color: var(--secondary1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    position: relative;
+}
+
+.StreamGame_host_box__vljT1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top : 30%;
+    left: 10%;
+}
+
+.StreamGame_opponent_box__b3STS {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom : 30%;
+    right: 10%;
+}
+
+.StreamGame_resume__2Khv3 h2 {
+    margin: 0;
+    padding: 20px;
+}
+
+.StreamGame_resume__2Khv3 p {
+    margin: 0;
+    padding: 0;
+}
+
+.StreamGame_resume__2Khv3 h1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.StreamGame_avatar__srlzL {
+    background-color: var(--secondary1);
+    border-radius: 50%;
+    border: solid var(--secondary1) 3px;  
+}
+
+.StreamGame_avatar_host___XwzA {
+    border-radius: 50%;
+    border: solid var(--secondary1) 3px;
+}
+
+.StreamGame_avatar_opponent__vpokR {
+    border-radius: 50%;
+    border: solid var(--secondary1) 3px;
+}
+
+.StreamGame_gamelist__nYOjW::-webkit-scrollbar-track {
+    background: var(--secondary1);
+}
+
+.StreamGame_gamelist__nYOjW::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.StreamGame_gamelist__nYOjW::-webkit-scrollbar-track {
+    background: var(--secondary1);
+}
+  
+.StreamGame_gamelist__nYOjW::-webkit-scrollbar-thumb {
+    background: var(--accent1);
+}
+
+.StreamGame_gamelist__nYOjW::-webkit-scrollbar-thumb:hover {
+    background: var(--accent1);
+}
+
+.StreamGame_watchbutton__2taY_ {
+    background-color: var(--accent1);
+    border: none;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    color: var(--primary);
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.StreamGame_watchbutton__2taY_:hover {
+    background-color: var(--accent1);
+}
+
+.StreamGame_loading__cgjzl {
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    left: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .StreamGame_StreamGame__fPFHW {
+        display: flex;
+        flex-direction: column;
+        justify-content: bottom;
+        min-height: 800px;
+    }
+
+    .StreamGame_resume__2Khv3 {
+        width: 100%;
+    }
+
+    .StreamGame_gamelist__nYOjW {
+        width: 100%;
+        height: 90%;
+    }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/league/League.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.League_league__hoyTN {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/selector/Selector.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.Selector_selector__MyMG2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  margin: 6px auto;
+}
+
+.Selector_activeBtn__zkg5Y {
+  appearance: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--primary1);
+  background-color: var(--secondary1);
+  border: 3px solid var(--accent1);
+  transition: all 0.3s ease-in;
+}
+
+.Selector_inactiveBtn__ALppS {
+  appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--primary3);
+  background-color: var(--primary2);
+  border: 3px solid var(--primary3);
+  transition: all 0.3s ease-out;
+}
+
+.Selector_inactiveBtn__ALppS:hover {
+  color: var(--accent2);
+  border: 3px solid var(--accent2);
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/selector/Slider.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.Slider_slider___6fFZ {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10px;
+  background-color: var(--primary3);
+  border-radius: 6px;
+  margin: 15px auto;
+}
+
+.Slider_sliderThumb__lismA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: var(--secondary1);
+  background-color: var(--primary1);
+  border: 3px solid var(--accent1);
+  position: absolute;
+  border-radius: 100%;
+}
+
+.Slider_sliderTrack__lfqp6 {
+  height: 24px;
+  border-radius: 6px;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/party/Custom.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.Custom_custom__sHdQ5 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Custom_set__yB_X7 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 70px;
+  margin: 10px auto;
+}
+
+.Custom_section__GcZP0 {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--tertiary2);
+  margin-bottom: 5px;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/party/DefineType.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.DefineType_defineType__GdFVO {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.DefineType_section__vjI_W {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--tertiary2);
+  margin-bottom: 5px;
+}
+
+.DefineType_type__73GyR {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.DefineType_type__73GyR button {
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 10px;
+  margin-top: 5px;
+  width: 80px;
+  height: 80px;
+}
+
+.DefineType_activeBtn__NJ5F6 {
+  color: var(--primary1);
+  background-color: var(--secondary1);
+  border: 3px solid var(--accent1);
+  transition: all 0.3s ease-in;
+}
+
+.DefineType_inactiveBtn__XspwN {
+  color: var(--tertiary3);
+  background-color: var(--primary2);
+  border: 3px solid var(--tertiary3);
+  transition: all 0.3s ease-out;
+}
+
+.DefineType_inactiveBtn__XspwN:hover {
+  color: var(--accent2);
+  border: 3px solid var(--accent2);
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/selector/ImgSelector.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.ImgSelector_imgList__E5Z8h {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ImgSelector_imgList__E5Z8h button {
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.ImgSelector_disabled__nn5ya {
+  color: var(--secondary3);
+  background-color: var(--secondary3);
+  border: 3px solid var(--secondary3);
+}
+
+.ImgSelector_activeButton__UvKZu {
+  color: var(--primary1);
+  background-color: var(--secondary1);
+  border: 3px solid var(--accent1);
+  transition: all 0.3s ease-in;
+}
+
+.ImgSelector_inactiveButton__rDDZG {
+  color: var(--secondary3);
+  background-color: var(--primary2);
+  border: 3px solid var(--secondary3);
+  transition: all 0.3s ease-out;
+}
+
+.ImgSelector_inactiveButton__rDDZG:hover {
+  color: var(--accent2);
+  border: 3px solid var(--accent2);
+}
+
+.ImgSelector_blur__rO_lG {
+  filter: blur(2px);
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/party/DefineField.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.DefineField_fieldSelector__SH5Dq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.DefineField_section__ldSD7 {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--tertiary2);
+  margin-bottom: 5px;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/party/GeneralSettings.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.GeneralSettings_generalSettings__Zbyw9 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.GeneralSettings_set__QT5JK {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/party/DefineName.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.DefineName_name__rW9E7 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.DefineName_section__yFXqr {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--tertiary1);
+  margin-bottom: 5px;
+}
+
+.DefineName_nameInput__5TAOX {
+  appearance: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--secondary1);
+  background-color: var(--primary1);
+  border: 3px solid var(--accent1);
+  padding: 6px;
+  width: 90%;
+  max-width: 200px;
+  transition: all 0.3s ease-in;
+  text-align: center;
+}
+
+.DefineName_nameInputError__FJDhA {
+  appearance: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--secondary1);
+  background-color: var(--primary1);
+  border: 3px solid var(--notif);
+  padding: 6px;
+  width: 90%;
+  max-width: 200px;
+  transition: all 0.3s ease-in;
+  text-align: center;
+}
+
+.DefineName_nameContainer___HGKH {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.DefineName_randomBtn__Yz8Ek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  color: var(--secondary1);
+  border: 3px solid var(--secondary1);
+  background-color: var(--primary1);
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.DefineName_randomBtn__Yz8Ek:active {
+  scale: 0.95;
+}
+
+.DefineName_randomBtn__Yz8Ek:hover {
+  border: 3px solid var(--accent1);
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/party/CreateParty.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.CreateParty_createParty__e9kWZ {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  border: solid var(--secondary1) 3px;
+  margin-top: 20px;
+}
+
+.CreateParty_name__oaY_V {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.CreateParty_nameInput__xHbbl {
+  appearance: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--secondary1);
+  background-color: var(--primary1);
+  border: 3px solid var(--accent1);
+  padding: 6px;
+  width: 90%;
+  max-width: 200px;
+  transition: all 0.3s ease-in;
+  text-align: center;
+}
+
+.CreateParty_nameInputError__afPoK {
+  appearance: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--secondary1);
+  background-color: var(--primary1);
+  border: 3px solid var(--notif);
+  padding: 6px;
+  width: 90%;
+  max-width: 200px;
+  transition: all 0.3s ease-in;
+  text-align: center;
+}
+
+.CreateParty_section___dSsy {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--tertiary1);
+  margin-bottom: 5px;
+}
+
+.CreateParty_save__EAQOo,
+.CreateParty_cancel__sqia5 {
+  appearance: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+  margin: 2px;
+}
+
+.CreateParty_save__EAQOo:checked,
+.CreateParty_cancel__sqia5:checked {
+  transition: all 0.3s ease-out;
+}
+
+.CreateParty_save__EAQOo {
+  color: var(--primary1);
+  background-color: var(--secondary1);
+  border: 3px solid var(--accent1);
+}
+
+.CreateParty_save__EAQOo:hover {
+  color: var(--accent1);
+  border: 3px solid var(--accent2);
+}
+
+.CreateParty_cancel__sqia5 {
+  color: var(--secondary3);
+  background-color: var(--primary2);
+  border: 3px solid var(--secondary3);
+}
+
+.CreateParty_cancel__sqia5:hover {
+  color: var(--accent2);
+  border: 3px solid var(--accent2);
+}
+
+.CreateParty_confirm__F8qmM {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.CreateParty_define__MGNLq {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.CreateParty_settings__3X1Qy {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.CreateParty_field__u1y91 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/lobbyList/GameDetails.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+/* PartyDetails.module.css */
+.GameDetails_showScore__SXCSL {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: -9px;
+}
+
+.GameDetails_displayRound__t9diz {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  margin: 4px;
+  border: 3px solid var(--secondary1);
+  border-radius: 5px;
+}
+
+.GameDetails_roundRemaining__u0290 {
+  border: 3px solid var(--primary2);
+}
+
+.GameDetails_currentRound__WVfy2 {
+  border: 3px solid var(--secondary1);
+}
+
+.GameDetails_roundFinished__wAiOk {
+  border: 3px solid var(--secondary1);
+}
+
+.GameDetails_round__qSPg2 {
+  margin-right: 8px;
+}
+
+.GameDetails_displayRound__t9diz > * {
+  font-size: 16px;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/lobbyList/PlayerInfo.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.PlayerInfo_playerInfo__fB6HB {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.PlayerInfo_avatar__eO9wN {
+  display: flex;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  color: var(--primary1);
+  margin: 5px;
+}
+
+.PlayerInfo_leftPlayer__T4wnH,
+.PlayerInfo_rightPlayer__agTJP {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.PlayerInfo_vs__3jJEG {
+  font-weight: bold;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/lobbyList/GameLine.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+/* PartyInfo.module.css */
+.GameLine_gameLine__Paqri {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 100%;
+  margin-block: 10px;
+}
+
+.GameLine_nameBtn__izqP_ {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--tertiary1);
+}
+
+.GameLine_nameBtn__izqP_:hover {
+  color: var(--accent1);
+}
+
+.GameLine_typeInfo__hURgv {
+  width: 70px;
+}
+
+.GameLine_playersInfo__lfhIz {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 200px;
+}
+
+.GameLine_playersInfo__lfhIz > * {
+  margin-inline: 5px;
+}
+
+.GameLine_roundInfo__mu_KW {
+  width: 60px;
+}
+
+.GameLine_statusInfo__Xq5wL {
+  width: 90px;
+}
+
+.GameLine_actionInfo__EXzF5 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 100px;
+}
+
+.GameLine_actionBtn__XNbFo {
+  appearance: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+  color: var(--primary1);
+  background-color: var(--secondary1);
+  border: 3px solid var(--accent1);
+}
+
+.GameLine_actionBtn__XNbFo:checked {
+  transition: all 0.3s ease-out;
+}
+
+.GameLine_actionBtn__XNbFo:hover {
+  color: var(--accent1);
+  border: 3px solid var(--accent2);
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/lobbyList/LobbyList.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.LobbyList_partyList__HerS2 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid var(--secondary1) 3px;
+}
+
+.LobbyList_listTitle__P73T1 {
+  margin-bottom: 12px;
+}
+
+.LobbyList_list__dnrVa {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  width: 100%;
+  background-color: var(--primary1);
+  border: 3px solid var(--primary3);
+  border-radius: 8px;
+  overflow-x: auto; /* Horizontal Scrollbar */
+}
+
+.LobbyList_listHead__6Av5W {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 100%;
+  background-color: var(--primary3);
+  border-bottom: 3px solid var(--primary1);
+}
+
+.LobbyList_listHead__6Av5W > * {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 5px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--title-font);
+}
+
+.LobbyList_detailTitle__rIOhU {
+  width: 60px;
+}
+
+.LobbyList_nameTitle__LI_ug {
+  width: 150px;
+}
+
+.LobbyList_typeTitle__tC0M0 {
+  width: 70px;
+}
+
+.LobbyList_playersTitle__z8cLG {
+  width: 250px;
+}
+
+.LobbyList_roundTitle__LPMhj {
+  width: 60px;
+}
+
+.LobbyList_statusTitle__uTVzV {
+  width: 90px;
+}
+
+.LobbyList_actionTitle__7Z3GU {
+  width: 100px;
+}
+
+.LobbyList_listBody__ezJ61 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 100%;
+}
+
+.LobbyList_loading__6DijE,
+.LobbyList_noGames__20hmP {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/party/Party.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.Party_party__OT1Sp {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 20px;
+}
+
+.Party_createBtn__bOIEv {
+	appearance: none;
+	padding: 6px 20px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.3s ease-in;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: var(--primary1);
+	background-color: var(--secondary1);
+	border: 3px solid var(--accent1);
+}
+
+.Party_createBtn__bOIEv:checked {
+	transition: all 0.3s ease-out;
+}
+
+.Party_createBtn__bOIEv:hover {
+	color: var(--accent1);
+	border: 3px solid var(--accent2);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/training/TrainingSelector.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.TrainingSelector_active__z_k92,
+.TrainingSelector_inactive__fUMDE {
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.TrainingSelector_active__z_k92 {
+  color: var(--primary1);
+  background-color: var(--secondary1);
+  border: 3px solid var(--accent1);
+  transition: all 0.3s ease-in;
+}
+
+.TrainingSelector_inactive__fUMDE {
+  color: var(--secondary1);
+  background-color: var(--primary2);
+  border: 3px solid var(--secondary1);
+  transition: all 0.3s ease-out;
+}
+
+.TrainingSelector_inactive__fUMDE:hover {
+  color: var(--accent2);
+  border: 3px solid var(--accent2);
+}
+
+.TrainingSelector_info__TkYsW {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.TrainingSelector_info__TkYsW > p {
+  margin: 5px;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/training/StandardTraining.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.StandardTraining_chooseTraining__gngky {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/training/CustomTraining.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.CustomTraining_active__p46PY,
+.CustomTraining_inactive__9fIpC {
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 10px;
+	margin: 10px;
+	margin-bottom: 0px;
+}
+
+.CustomTraining_active__p46PY {
+	color: var(--primary1);
+	background-color: var(--secondary1);
+	border: 3px solid var(--accent1);
+	transition: all 0.3s ease-in;
+}
+
+.CustomTraining_inactive__9fIpC {
+	color: var(--secondary1);
+	background-color: var(--primary2);
+	border: 3px solid var(--secondary1);
+	transition: all 0.3s ease-out;
+}
+
+.CustomTraining_inactive__9fIpC:hover {
+	color: var(--accent2);
+	border: 3px solid var(--accent2);
+}
+
+.CustomTraining_settings__hQeEc {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.CustomTraining_set__blwc1 {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 60px;
+	margin: 10px auto;
+}
+
+.CustomTraining_gameImage__QUBma {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/training/GeneralSettings.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.GeneralSettings_generalSettings__f5K_n {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.GeneralSettings_set__5MnK3 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  margin: 10px auto;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/InGame.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.InGame_isInGame__8hV9f {
+  width: 100%;
+  min-height: 50%;
+  margin-block: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  background-color: var(--primary2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.InGame_inGameChoice__qsgkA {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.InGame_resumeBtn__GeSfV,
+.InGame_quitBtn__zf5pE {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+  margin: 10px;
+}
+
+.InGame_resumeBtn__GeSfV:checked,
+.InGame_quitBtn__zf5pE:checked {
+  transition: all 0.3s ease-out;
+}
+
+.InGame_resumeBtn__GeSfV {
+  color: var(--primary1);
+  background-color: var(--secondary1);
+  border: 3px solid var(--accent1);
+}
+
+.InGame_quitBtn__zf5pE {
+  color: var(--primary1);
+  background-color: var(--tertiary1);
+  border: 3px solid var(--secondary1);
+}
+
+.InGame_resumeBtn__GeSfV:hover {
+  color: var(--accent1);
+  border: 3px solid var(--accent2);
+}
+
+.InGame_quitBtn__zf5pE:hover {
+  color: var(--accent1);
+  border: 3px solid var(--accent2);
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/training/Training.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.Training_training__L8lzG {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid var(--secondary1) 3px;
+	margin-top: 20px;
+}
+
+.Training_save__HRNoz {
+	appearance: none;
+	padding: 6px 20px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	transition: all 0.3s ease-in;
+	margin: 2px;
+	color: var(--primary1);
+	background-color: var(--secondary1);
+	border: 3px solid var(--accent1);
+}
+
+.Training_save__HRNoz:checked {
+	transition: all 0.3s ease-out;
+}
+
+.Training_save__HRNoz:hover {
+	color: var(--accent1);
+	border: 3px solid var(--accent2);
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/NavLobby.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.NavLobby_menu__njUnU {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavLobby_menu__njUnU > button {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+  width: 33%;
+  background-color: var(--primary2);
+}
+
+.NavLobby_activeBtn__J2OuV {
+  color: var(--secondary1);
+  background-color: var(--primary2);
+  border: 5px solid var(--accent3);
+  transition: all 0.3s ease-in;
+}
+
+.NavLobby_inactiveBtn__uF1ph {
+  color: var(--secondary1);
+  background-color: var(--primary2);
+  border: 5px solid var(--primary2);
+  transition: all 0.3s ease-out;
+}
+
+.NavLobby_inactiveBtn__uF1ph:hover {
+  color: var(--secondary2);
+  border: 5px solid var(--primary3);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/Lobby.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Lobby_home__LiHNc {
+  width: 90%;
+  min-height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.Lobby_loading__IhN0w {
+  width: 100%;
+  min-height: 50%;
+  margin-block: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: var(--primary1);
+  background-color: var(--primary3);
+} 
+
+.Lobby_lobby__fsj8H {
+  width: 100%;
+  min-height: 50%;
+  margin-block: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Lobby_menu__FBcO9 {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Lobby_content__6n08w {
+  width: 100%;
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/homeProfile/GameStats.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/lobby/homeProfile/HomeProfile.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.HomeProfile_homeProfil__VIJfK {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  background-color: var(--primary2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.HomeProfile_profileInfo__BscGe {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeProfile_avatar__6blr3 {
+  display: flex;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  color: var(--primary1);
+  margin: 0;
+  padding: 0;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/loading/Loading.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.Loading_main__paZY_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.Loading_main__paZY_ h2 {
+  margin: 10px;
+}
+

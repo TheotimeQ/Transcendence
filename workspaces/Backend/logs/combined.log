@@ -1,0 +1,1040 @@
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-08-20T20:00:21.264Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-08-20T20:00:21.300Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.301Z"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized","timestamp":"2023-08-20T20:00:21.301Z"}
+{"context":"InstanceLoader","level":"info","message":"MailModule dependencies initialized","timestamp":"2023-08-20T20:00:21.301Z"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-08-20T20:00:21.302Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-08-20T20:00:21.302Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-08-20T20:00:21.302Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2023-08-20T20:00:21.444Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.444Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.445Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:00:21.446Z"}
+{"context":"InstanceLoader","level":"info","message":"StatsModule dependencies initialized","timestamp":"2023-08-20T20:00:21.447Z"}
+{"context":"InstanceLoader","level":"info","message":"ScoreModule dependencies initialized","timestamp":"2023-08-20T20:00:21.447Z"}
+{"context":"InstanceLoader","level":"info","message":"MessageModule dependencies initialized","timestamp":"2023-08-20T20:00:21.447Z"}
+{"context":"InstanceLoader","level":"info","message":"ChannelModule dependencies initialized","timestamp":"2023-08-20T20:00:21.447Z"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-08-20T20:00:21.448Z"}
+{"context":"InstanceLoader","level":"info","message":"TrainingModule dependencies initialized","timestamp":"2023-08-20T20:00:21.448Z"}
+{"context":"InstanceLoader","level":"info","message":"TwoFactorAuthenticationModule dependencies initialized","timestamp":"2023-08-20T20:00:21.448Z"}
+{"context":"InstanceLoader","level":"info","message":"AvatarModule dependencies initialized","timestamp":"2023-08-20T20:00:21.448Z"}
+{"context":"InstanceLoader","level":"info","message":"MatchmakingModule dependencies initialized","timestamp":"2023-08-20T20:00:21.448Z"}
+{"context":"InstanceLoader","level":"info","message":"ChatModule dependencies initialized","timestamp":"2023-08-20T20:00:21.449Z"}
+{"context":"InstanceLoader","level":"info","message":"GameModule dependencies initialized","timestamp":"2023-08-20T20:00:21.449Z"}
+{"context":"InstanceLoader","level":"info","message":"LobbyModule dependencies initialized","timestamp":"2023-08-20T20:00:21.449Z"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-08-20T20:00:21.449Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"newMsg\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"notif\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotif\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotifMsg\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"clearNotif\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getLoginWithAvatar\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannel\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannels\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllChannels\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongie\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongies\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllPongies\" message","timestamp":"2023-08-20T20:00:21.460Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"addPongie\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"deletePongie\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelInvitation\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelBlacklist\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"blacklist\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"leave\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getMessages\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelName\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelUsers\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"editRelation\" message","timestamp":"2023-08-20T20:00:21.461Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:00:21.462Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"pong\" message","timestamp":"2023-08-20T20:00:21.462Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"action\" message","timestamp":"2023-08-20T20:00:21.462Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"quit\" message","timestamp":"2023-08-20T20:00:21.462Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/auth}:","timestamp":"2023-08-20T20:00:21.463Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/42, GET} route","timestamp":"2023-08-20T20:00:21.464Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/register, POST} route","timestamp":"2023-08-20T20:00:21.464Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/verifyCode/:code, GET} route","timestamp":"2023-08-20T20:00:21.464Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google, GET} route","timestamp":"2023-08-20T20:00:21.465Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google/callback, GET} route","timestamp":"2023-08-20T20:00:21.465Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/firstLogin, POST} route","timestamp":"2023-08-20T20:00:21.465Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/login, POST} route","timestamp":"2023-08-20T20:00:21.465Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refresh, POST} route","timestamp":"2023-08-20T20:00:21.465Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refreshToken, POST} route","timestamp":"2023-08-20T20:00:21.466Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/sendPassword, POST} route","timestamp":"2023-08-20T20:00:21.466Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/forgotPassword, POST} route","timestamp":"2023-08-20T20:00:21.466Z"}
+{"context":"RoutesResolver","level":"info","message":"AvatarController {/api/avatar}:","timestamp":"2023-08-20T20:00:21.466Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, GET} route","timestamp":"2023-08-20T20:00:21.466Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar/:id/:isChannel, GET} route","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, PUT} route","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RoutesResolver","level":"info","message":"ChannelController {/api/channel}:","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/:id, GET} route","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/editRelation, PUT} route","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RoutesResolver","level":"info","message":"LobbyController {/api/lobby}:","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/status, GET} route","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/create, POST} route","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/join/:gameId, PUT} route","timestamp":"2023-08-20T20:00:21.467Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getall/:mode?, GET} route","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/quit, POST} route","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/isingame, GET} route","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getleague, GET} route","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/pop, GET} route","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RoutesResolver","level":"info","message":"MatchmakingController {/api/matchmaking}:","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/start, POST} route","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/stop, POST} route","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/update, GET} route","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RoutesResolver","level":"info","message":"StatsController {/api/stats}:","timestamp":"2023-08-20T20:00:21.468Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/status, GET} route","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/get/:userId, GET} route","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RoutesResolver","level":"info","message":"TrainingController {/api/training}:","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/status, GET} route","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/create, POST} route","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/get/:id, GET} route","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/isInTraining, GET} route","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/update/:id, PUT} route","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/quit/:id, POST} route","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/api/users}:","timestamp":"2023-08-20T20:00:21.469Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/me, GET} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/myAvatar, GET} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/profile/:id, GET} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/avatar/:id, GET} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/email, GET} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/login, GET} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users, PUT} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnect/:id, DELETE} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnectByToken, DELETE} route","timestamp":"2023-08-20T20:00:21.470Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/changeLogin, PUT} route","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/checkPassword, POST} route","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/updatePassword, PUT} route","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RoutesResolver","level":"info","message":"ScoreController {/api/score}:","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/game/:gameId, GET} route","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/update, PUT} route","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RoutesResolver","level":"info","message":"TwoFactorAuthenticationController {/api/2fa}:","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/generate, GET} route","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/sendCode, GET} route","timestamp":"2023-08-20T20:00:21.471Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyCode, POST} route","timestamp":"2023-08-20T20:00:21.472Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/activate, POST} route","timestamp":"2023-08-20T20:00:21.472Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/deactivate, POST} route","timestamp":"2023-08-20T20:00:21.472Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/authenticate, POST} route","timestamp":"2023-08-20T20:00:21.472Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/backupCodes, GET} route","timestamp":"2023-08-20T20:00:21.472Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyAuthCode, POST} route","timestamp":"2023-08-20T20:00:21.472Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/getAccountBack, POST} route","timestamp":"2023-08-20T20:00:21.472Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-08-20T20:00:21.475Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-08-20T20:01:09.807Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-08-20T20:01:09.844Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.845Z"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized","timestamp":"2023-08-20T20:01:09.845Z"}
+{"context":"InstanceLoader","level":"info","message":"MailModule dependencies initialized","timestamp":"2023-08-20T20:01:09.845Z"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-08-20T20:01:09.846Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-08-20T20:01:09.846Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-08-20T20:01:09.852Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2023-08-20T20:01:09.977Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.977Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.977Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.977Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:09.978Z"}
+{"context":"InstanceLoader","level":"info","message":"StatsModule dependencies initialized","timestamp":"2023-08-20T20:01:09.979Z"}
+{"context":"InstanceLoader","level":"info","message":"ScoreModule dependencies initialized","timestamp":"2023-08-20T20:01:09.979Z"}
+{"context":"InstanceLoader","level":"info","message":"MessageModule dependencies initialized","timestamp":"2023-08-20T20:01:09.980Z"}
+{"context":"InstanceLoader","level":"info","message":"ChannelModule dependencies initialized","timestamp":"2023-08-20T20:01:09.980Z"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-08-20T20:01:09.981Z"}
+{"context":"InstanceLoader","level":"info","message":"TrainingModule dependencies initialized","timestamp":"2023-08-20T20:01:09.981Z"}
+{"context":"InstanceLoader","level":"info","message":"TwoFactorAuthenticationModule dependencies initialized","timestamp":"2023-08-20T20:01:09.981Z"}
+{"context":"InstanceLoader","level":"info","message":"AvatarModule dependencies initialized","timestamp":"2023-08-20T20:01:09.981Z"}
+{"context":"InstanceLoader","level":"info","message":"MatchmakingModule dependencies initialized","timestamp":"2023-08-20T20:01:09.981Z"}
+{"context":"InstanceLoader","level":"info","message":"ChatModule dependencies initialized","timestamp":"2023-08-20T20:01:09.981Z"}
+{"context":"InstanceLoader","level":"info","message":"GameModule dependencies initialized","timestamp":"2023-08-20T20:01:09.982Z"}
+{"context":"InstanceLoader","level":"info","message":"LobbyModule dependencies initialized","timestamp":"2023-08-20T20:01:09.982Z"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-08-20T20:01:09.982Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"newMsg\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"notif\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotif\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotifMsg\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"clearNotif\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getLoginWithAvatar\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannel\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannels\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllChannels\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongie\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongies\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllPongies\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"addPongie\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"deletePongie\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelInvitation\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelBlacklist\" message","timestamp":"2023-08-20T20:01:09.993Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"blacklist\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"leave\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getMessages\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelName\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelUsers\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"editRelation\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"pong\" message","timestamp":"2023-08-20T20:01:09.994Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"action\" message","timestamp":"2023-08-20T20:01:09.995Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"quit\" message","timestamp":"2023-08-20T20:01:09.995Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/auth}:","timestamp":"2023-08-20T20:01:09.996Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/42, GET} route","timestamp":"2023-08-20T20:01:09.997Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/register, POST} route","timestamp":"2023-08-20T20:01:09.997Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/verifyCode/:code, GET} route","timestamp":"2023-08-20T20:01:09.997Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google, GET} route","timestamp":"2023-08-20T20:01:09.998Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google/callback, GET} route","timestamp":"2023-08-20T20:01:09.998Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/firstLogin, POST} route","timestamp":"2023-08-20T20:01:09.998Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/login, POST} route","timestamp":"2023-08-20T20:01:09.998Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refresh, POST} route","timestamp":"2023-08-20T20:01:09.998Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refreshToken, POST} route","timestamp":"2023-08-20T20:01:09.999Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/sendPassword, POST} route","timestamp":"2023-08-20T20:01:09.999Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/forgotPassword, POST} route","timestamp":"2023-08-20T20:01:09.999Z"}
+{"context":"RoutesResolver","level":"info","message":"AvatarController {/api/avatar}:","timestamp":"2023-08-20T20:01:09.999Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, GET} route","timestamp":"2023-08-20T20:01:09.999Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar/:id/:isChannel, GET} route","timestamp":"2023-08-20T20:01:09.999Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, PUT} route","timestamp":"2023-08-20T20:01:10.000Z"}
+{"context":"RoutesResolver","level":"info","message":"ChannelController {/api/channel}:","timestamp":"2023-08-20T20:01:10.000Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/:id, GET} route","timestamp":"2023-08-20T20:01:10.000Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/editRelation, PUT} route","timestamp":"2023-08-20T20:01:10.000Z"}
+{"context":"RoutesResolver","level":"info","message":"LobbyController {/api/lobby}:","timestamp":"2023-08-20T20:01:10.000Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/status, GET} route","timestamp":"2023-08-20T20:01:10.000Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/create, POST} route","timestamp":"2023-08-20T20:01:10.000Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/join/:gameId, PUT} route","timestamp":"2023-08-20T20:01:10.000Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getall/:mode?, GET} route","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/quit, POST} route","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/isingame, GET} route","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getleague, GET} route","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/pop, GET} route","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RoutesResolver","level":"info","message":"MatchmakingController {/api/matchmaking}:","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/start, POST} route","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/stop, POST} route","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/update, GET} route","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RoutesResolver","level":"info","message":"StatsController {/api/stats}:","timestamp":"2023-08-20T20:01:10.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/status, GET} route","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/get/:userId, GET} route","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RoutesResolver","level":"info","message":"TrainingController {/api/training}:","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/status, GET} route","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/create, POST} route","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/get/:id, GET} route","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/isInTraining, GET} route","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/update/:id, PUT} route","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/quit/:id, POST} route","timestamp":"2023-08-20T20:01:10.002Z"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/api/users}:","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/me, GET} route","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/myAvatar, GET} route","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/profile/:id, GET} route","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/avatar/:id, GET} route","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/email, GET} route","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/login, GET} route","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users, PUT} route","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnect/:id, DELETE} route","timestamp":"2023-08-20T20:01:10.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnectByToken, DELETE} route","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/changeLogin, PUT} route","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/checkPassword, POST} route","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/updatePassword, PUT} route","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RoutesResolver","level":"info","message":"ScoreController {/api/score}:","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/game/:gameId, GET} route","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/update, PUT} route","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RoutesResolver","level":"info","message":"TwoFactorAuthenticationController {/api/2fa}:","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/generate, GET} route","timestamp":"2023-08-20T20:01:10.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/sendCode, GET} route","timestamp":"2023-08-20T20:01:10.005Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyCode, POST} route","timestamp":"2023-08-20T20:01:10.005Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/activate, POST} route","timestamp":"2023-08-20T20:01:10.005Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/deactivate, POST} route","timestamp":"2023-08-20T20:01:10.005Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/authenticate, POST} route","timestamp":"2023-08-20T20:01:10.005Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/backupCodes, GET} route","timestamp":"2023-08-20T20:01:10.005Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyAuthCode, POST} route","timestamp":"2023-08-20T20:01:10.005Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/getAccountBack, POST} route","timestamp":"2023-08-20T20:01:10.005Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-08-20T20:01:10.008Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-08-20T20:01:18.700Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-08-20T20:01:18.744Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.744Z"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized","timestamp":"2023-08-20T20:01:18.744Z"}
+{"context":"InstanceLoader","level":"info","message":"MailModule dependencies initialized","timestamp":"2023-08-20T20:01:18.744Z"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-08-20T20:01:18.745Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-08-20T20:01:18.745Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-08-20T20:01:18.745Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2023-08-20T20:01:18.864Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.864Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:01:18.865Z"}
+{"context":"InstanceLoader","level":"info","message":"StatsModule dependencies initialized","timestamp":"2023-08-20T20:01:18.867Z"}
+{"context":"InstanceLoader","level":"info","message":"ScoreModule dependencies initialized","timestamp":"2023-08-20T20:01:18.867Z"}
+{"context":"InstanceLoader","level":"info","message":"MessageModule dependencies initialized","timestamp":"2023-08-20T20:01:18.867Z"}
+{"context":"InstanceLoader","level":"info","message":"ChannelModule dependencies initialized","timestamp":"2023-08-20T20:01:18.867Z"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-08-20T20:01:18.868Z"}
+{"context":"InstanceLoader","level":"info","message":"TrainingModule dependencies initialized","timestamp":"2023-08-20T20:01:18.868Z"}
+{"context":"InstanceLoader","level":"info","message":"TwoFactorAuthenticationModule dependencies initialized","timestamp":"2023-08-20T20:01:18.868Z"}
+{"context":"InstanceLoader","level":"info","message":"AvatarModule dependencies initialized","timestamp":"2023-08-20T20:01:18.868Z"}
+{"context":"InstanceLoader","level":"info","message":"MatchmakingModule dependencies initialized","timestamp":"2023-08-20T20:01:18.869Z"}
+{"context":"InstanceLoader","level":"info","message":"ChatModule dependencies initialized","timestamp":"2023-08-20T20:01:18.869Z"}
+{"context":"InstanceLoader","level":"info","message":"GameModule dependencies initialized","timestamp":"2023-08-20T20:01:18.869Z"}
+{"context":"InstanceLoader","level":"info","message":"LobbyModule dependencies initialized","timestamp":"2023-08-20T20:01:18.869Z"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-08-20T20:01:18.869Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"newMsg\" message","timestamp":"2023-08-20T20:01:18.880Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"notif\" message","timestamp":"2023-08-20T20:01:18.880Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotif\" message","timestamp":"2023-08-20T20:01:18.880Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotifMsg\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"clearNotif\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getLoginWithAvatar\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannel\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannels\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllChannels\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongie\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongies\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllPongies\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"addPongie\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"deletePongie\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelInvitation\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelBlacklist\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"blacklist\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"leave\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getMessages\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelName\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelUsers\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"editRelation\" message","timestamp":"2023-08-20T20:01:18.881Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:01:18.882Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"pong\" message","timestamp":"2023-08-20T20:01:18.882Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"action\" message","timestamp":"2023-08-20T20:01:18.882Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"quit\" message","timestamp":"2023-08-20T20:01:18.882Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/auth}:","timestamp":"2023-08-20T20:01:18.883Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/42, GET} route","timestamp":"2023-08-20T20:01:18.884Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/register, POST} route","timestamp":"2023-08-20T20:01:18.885Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/verifyCode/:code, GET} route","timestamp":"2023-08-20T20:01:18.885Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google, GET} route","timestamp":"2023-08-20T20:01:18.885Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google/callback, GET} route","timestamp":"2023-08-20T20:01:18.885Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/firstLogin, POST} route","timestamp":"2023-08-20T20:01:18.886Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/login, POST} route","timestamp":"2023-08-20T20:01:18.886Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refresh, POST} route","timestamp":"2023-08-20T20:01:18.886Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refreshToken, POST} route","timestamp":"2023-08-20T20:01:18.886Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/sendPassword, POST} route","timestamp":"2023-08-20T20:01:18.886Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/forgotPassword, POST} route","timestamp":"2023-08-20T20:01:18.887Z"}
+{"context":"RoutesResolver","level":"info","message":"AvatarController {/api/avatar}:","timestamp":"2023-08-20T20:01:18.887Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, GET} route","timestamp":"2023-08-20T20:01:18.887Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar/:id/:isChannel, GET} route","timestamp":"2023-08-20T20:01:18.887Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, PUT} route","timestamp":"2023-08-20T20:01:18.887Z"}
+{"context":"RoutesResolver","level":"info","message":"ChannelController {/api/channel}:","timestamp":"2023-08-20T20:01:18.887Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/:id, GET} route","timestamp":"2023-08-20T20:01:18.888Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/editRelation, PUT} route","timestamp":"2023-08-20T20:01:18.888Z"}
+{"context":"RoutesResolver","level":"info","message":"LobbyController {/api/lobby}:","timestamp":"2023-08-20T20:01:18.888Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/status, GET} route","timestamp":"2023-08-20T20:01:18.888Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/create, POST} route","timestamp":"2023-08-20T20:01:18.888Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/join/:gameId, PUT} route","timestamp":"2023-08-20T20:01:18.888Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getall/:mode?, GET} route","timestamp":"2023-08-20T20:01:18.888Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/quit, POST} route","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/isingame, GET} route","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getleague, GET} route","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/pop, GET} route","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RoutesResolver","level":"info","message":"MatchmakingController {/api/matchmaking}:","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/start, POST} route","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/stop, POST} route","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/update, GET} route","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RoutesResolver","level":"info","message":"StatsController {/api/stats}:","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/status, GET} route","timestamp":"2023-08-20T20:01:18.889Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/get/:userId, GET} route","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RoutesResolver","level":"info","message":"TrainingController {/api/training}:","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/status, GET} route","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/create, POST} route","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/get/:id, GET} route","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/isInTraining, GET} route","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/update/:id, PUT} route","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/quit/:id, POST} route","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/api/users}:","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/me, GET} route","timestamp":"2023-08-20T20:01:18.890Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/myAvatar, GET} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/profile/:id, GET} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/avatar/:id, GET} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/email, GET} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/login, GET} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users, PUT} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnect/:id, DELETE} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnectByToken, DELETE} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/changeLogin, PUT} route","timestamp":"2023-08-20T20:01:18.891Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/checkPassword, POST} route","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/updatePassword, PUT} route","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RoutesResolver","level":"info","message":"ScoreController {/api/score}:","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/game/:gameId, GET} route","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/update, PUT} route","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RoutesResolver","level":"info","message":"TwoFactorAuthenticationController {/api/2fa}:","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/generate, GET} route","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/sendCode, GET} route","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyCode, POST} route","timestamp":"2023-08-20T20:01:18.892Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/activate, POST} route","timestamp":"2023-08-20T20:01:18.893Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/deactivate, POST} route","timestamp":"2023-08-20T20:01:18.893Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/authenticate, POST} route","timestamp":"2023-08-20T20:01:18.893Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/backupCodes, GET} route","timestamp":"2023-08-20T20:01:18.893Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyAuthCode, POST} route","timestamp":"2023-08-20T20:01:18.893Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/getAccountBack, POST} route","timestamp":"2023-08-20T20:01:18.893Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-08-20T20:01:18.896Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-08-20T20:02:30.190Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-08-20T20:02:30.235Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.236Z"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized","timestamp":"2023-08-20T20:02:30.236Z"}
+{"context":"InstanceLoader","level":"info","message":"MailModule dependencies initialized","timestamp":"2023-08-20T20:02:30.236Z"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-08-20T20:02:30.237Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-08-20T20:02:30.237Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-08-20T20:02:30.237Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2023-08-20T20:02:30.376Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.377Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.377Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.377Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.377Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.377Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.377Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.378Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.378Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.378Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.378Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.378Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:30.378Z"}
+{"context":"InstanceLoader","level":"info","message":"StatsModule dependencies initialized","timestamp":"2023-08-20T20:02:30.379Z"}
+{"context":"InstanceLoader","level":"info","message":"ScoreModule dependencies initialized","timestamp":"2023-08-20T20:02:30.379Z"}
+{"context":"InstanceLoader","level":"info","message":"MessageModule dependencies initialized","timestamp":"2023-08-20T20:02:30.380Z"}
+{"context":"InstanceLoader","level":"info","message":"ChannelModule dependencies initialized","timestamp":"2023-08-20T20:02:30.380Z"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-08-20T20:02:30.380Z"}
+{"context":"InstanceLoader","level":"info","message":"TrainingModule dependencies initialized","timestamp":"2023-08-20T20:02:30.381Z"}
+{"context":"InstanceLoader","level":"info","message":"TwoFactorAuthenticationModule dependencies initialized","timestamp":"2023-08-20T20:02:30.381Z"}
+{"context":"InstanceLoader","level":"info","message":"AvatarModule dependencies initialized","timestamp":"2023-08-20T20:02:30.381Z"}
+{"context":"InstanceLoader","level":"info","message":"MatchmakingModule dependencies initialized","timestamp":"2023-08-20T20:02:30.381Z"}
+{"context":"InstanceLoader","level":"info","message":"ChatModule dependencies initialized","timestamp":"2023-08-20T20:02:30.381Z"}
+{"context":"InstanceLoader","level":"info","message":"GameModule dependencies initialized","timestamp":"2023-08-20T20:02:30.381Z"}
+{"context":"InstanceLoader","level":"info","message":"LobbyModule dependencies initialized","timestamp":"2023-08-20T20:02:30.382Z"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-08-20T20:02:30.382Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"newMsg\" message","timestamp":"2023-08-20T20:02:30.393Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"notif\" message","timestamp":"2023-08-20T20:02:30.393Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotif\" message","timestamp":"2023-08-20T20:02:30.393Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotifMsg\" message","timestamp":"2023-08-20T20:02:30.393Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"clearNotif\" message","timestamp":"2023-08-20T20:02:30.393Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getLoginWithAvatar\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannel\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannels\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllChannels\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongie\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongies\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllPongies\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"addPongie\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"deletePongie\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelInvitation\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelBlacklist\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"blacklist\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"leave\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getMessages\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelName\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelUsers\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"editRelation\" message","timestamp":"2023-08-20T20:02:30.394Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:02:30.395Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"pong\" message","timestamp":"2023-08-20T20:02:30.395Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"action\" message","timestamp":"2023-08-20T20:02:30.395Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"quit\" message","timestamp":"2023-08-20T20:02:30.395Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/auth}:","timestamp":"2023-08-20T20:02:30.396Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/42, GET} route","timestamp":"2023-08-20T20:02:30.397Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/register, POST} route","timestamp":"2023-08-20T20:02:30.398Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/verifyCode/:code, GET} route","timestamp":"2023-08-20T20:02:30.398Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google, GET} route","timestamp":"2023-08-20T20:02:30.398Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google/callback, GET} route","timestamp":"2023-08-20T20:02:30.398Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/firstLogin, POST} route","timestamp":"2023-08-20T20:02:30.399Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/login, POST} route","timestamp":"2023-08-20T20:02:30.399Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refresh, POST} route","timestamp":"2023-08-20T20:02:30.399Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refreshToken, POST} route","timestamp":"2023-08-20T20:02:30.399Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/sendPassword, POST} route","timestamp":"2023-08-20T20:02:30.399Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/forgotPassword, POST} route","timestamp":"2023-08-20T20:02:30.400Z"}
+{"context":"RoutesResolver","level":"info","message":"AvatarController {/api/avatar}:","timestamp":"2023-08-20T20:02:30.400Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, GET} route","timestamp":"2023-08-20T20:02:30.400Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar/:id/:isChannel, GET} route","timestamp":"2023-08-20T20:02:30.400Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, PUT} route","timestamp":"2023-08-20T20:02:30.400Z"}
+{"context":"RoutesResolver","level":"info","message":"ChannelController {/api/channel}:","timestamp":"2023-08-20T20:02:30.400Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/:id, GET} route","timestamp":"2023-08-20T20:02:30.400Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/editRelation, PUT} route","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RoutesResolver","level":"info","message":"LobbyController {/api/lobby}:","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/status, GET} route","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/create, POST} route","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/join/:gameId, PUT} route","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getall/:mode?, GET} route","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/quit, POST} route","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/isingame, GET} route","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getleague, GET} route","timestamp":"2023-08-20T20:02:30.401Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/pop, GET} route","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RoutesResolver","level":"info","message":"MatchmakingController {/api/matchmaking}:","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/start, POST} route","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/stop, POST} route","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/update, GET} route","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RoutesResolver","level":"info","message":"StatsController {/api/stats}:","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/status, GET} route","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/get/:userId, GET} route","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RoutesResolver","level":"info","message":"TrainingController {/api/training}:","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/status, GET} route","timestamp":"2023-08-20T20:02:30.402Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/create, POST} route","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/get/:id, GET} route","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/isInTraining, GET} route","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/update/:id, PUT} route","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/quit/:id, POST} route","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/api/users}:","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/me, GET} route","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/myAvatar, GET} route","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/profile/:id, GET} route","timestamp":"2023-08-20T20:02:30.403Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/avatar/:id, GET} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/email, GET} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/login, GET} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users, PUT} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnect/:id, DELETE} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnectByToken, DELETE} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/changeLogin, PUT} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/checkPassword, POST} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/updatePassword, PUT} route","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RoutesResolver","level":"info","message":"ScoreController {/api/score}:","timestamp":"2023-08-20T20:02:30.404Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/game/:gameId, GET} route","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/update, PUT} route","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RoutesResolver","level":"info","message":"TwoFactorAuthenticationController {/api/2fa}:","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/generate, GET} route","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/sendCode, GET} route","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyCode, POST} route","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/activate, POST} route","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/deactivate, POST} route","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/authenticate, POST} route","timestamp":"2023-08-20T20:02:30.405Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/backupCodes, GET} route","timestamp":"2023-08-20T20:02:30.406Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyAuthCode, POST} route","timestamp":"2023-08-20T20:02:30.406Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/getAccountBack, POST} route","timestamp":"2023-08-20T20:02:30.406Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-08-20T20:02:30.409Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-08-20T20:02:38.938Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-08-20T20:02:38.976Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:38.976Z"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized","timestamp":"2023-08-20T20:02:38.977Z"}
+{"context":"InstanceLoader","level":"info","message":"MailModule dependencies initialized","timestamp":"2023-08-20T20:02:38.977Z"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-08-20T20:02:38.977Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-08-20T20:02:38.977Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-08-20T20:02:38.978Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2023-08-20T20:02:39.090Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.090Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.091Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:02:39.092Z"}
+{"context":"InstanceLoader","level":"info","message":"StatsModule dependencies initialized","timestamp":"2023-08-20T20:02:39.093Z"}
+{"context":"InstanceLoader","level":"info","message":"ScoreModule dependencies initialized","timestamp":"2023-08-20T20:02:39.093Z"}
+{"context":"InstanceLoader","level":"info","message":"MessageModule dependencies initialized","timestamp":"2023-08-20T20:02:39.093Z"}
+{"context":"InstanceLoader","level":"info","message":"ChannelModule dependencies initialized","timestamp":"2023-08-20T20:02:39.094Z"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-08-20T20:02:39.094Z"}
+{"context":"InstanceLoader","level":"info","message":"TrainingModule dependencies initialized","timestamp":"2023-08-20T20:02:39.095Z"}
+{"context":"InstanceLoader","level":"info","message":"TwoFactorAuthenticationModule dependencies initialized","timestamp":"2023-08-20T20:02:39.095Z"}
+{"context":"InstanceLoader","level":"info","message":"AvatarModule dependencies initialized","timestamp":"2023-08-20T20:02:39.095Z"}
+{"context":"InstanceLoader","level":"info","message":"MatchmakingModule dependencies initialized","timestamp":"2023-08-20T20:02:39.095Z"}
+{"context":"InstanceLoader","level":"info","message":"ChatModule dependencies initialized","timestamp":"2023-08-20T20:02:39.095Z"}
+{"context":"InstanceLoader","level":"info","message":"GameModule dependencies initialized","timestamp":"2023-08-20T20:02:39.095Z"}
+{"context":"InstanceLoader","level":"info","message":"LobbyModule dependencies initialized","timestamp":"2023-08-20T20:02:39.095Z"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-08-20T20:02:39.096Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"newMsg\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"notif\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotif\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotifMsg\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"clearNotif\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getLoginWithAvatar\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannel\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannels\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllChannels\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongie\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongies\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllPongies\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"addPongie\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"deletePongie\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelInvitation\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelBlacklist\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"blacklist\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:02:39.107Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"leave\" message","timestamp":"2023-08-20T20:02:39.108Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getMessages\" message","timestamp":"2023-08-20T20:02:39.108Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelName\" message","timestamp":"2023-08-20T20:02:39.108Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelUsers\" message","timestamp":"2023-08-20T20:02:39.108Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"editRelation\" message","timestamp":"2023-08-20T20:02:39.108Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:02:39.108Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"pong\" message","timestamp":"2023-08-20T20:02:39.108Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"action\" message","timestamp":"2023-08-20T20:02:39.108Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"quit\" message","timestamp":"2023-08-20T20:02:39.109Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/auth}:","timestamp":"2023-08-20T20:02:39.110Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/42, GET} route","timestamp":"2023-08-20T20:02:39.111Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/register, POST} route","timestamp":"2023-08-20T20:02:39.111Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/verifyCode/:code, GET} route","timestamp":"2023-08-20T20:02:39.111Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google, GET} route","timestamp":"2023-08-20T20:02:39.111Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google/callback, GET} route","timestamp":"2023-08-20T20:02:39.112Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/firstLogin, POST} route","timestamp":"2023-08-20T20:02:39.112Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/login, POST} route","timestamp":"2023-08-20T20:02:39.112Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refresh, POST} route","timestamp":"2023-08-20T20:02:39.112Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refreshToken, POST} route","timestamp":"2023-08-20T20:02:39.113Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/sendPassword, POST} route","timestamp":"2023-08-20T20:02:39.113Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/forgotPassword, POST} route","timestamp":"2023-08-20T20:02:39.113Z"}
+{"context":"RoutesResolver","level":"info","message":"AvatarController {/api/avatar}:","timestamp":"2023-08-20T20:02:39.113Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, GET} route","timestamp":"2023-08-20T20:02:39.113Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar/:id/:isChannel, GET} route","timestamp":"2023-08-20T20:02:39.113Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, PUT} route","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RoutesResolver","level":"info","message":"ChannelController {/api/channel}:","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/:id, GET} route","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/editRelation, PUT} route","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RoutesResolver","level":"info","message":"LobbyController {/api/lobby}:","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/status, GET} route","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/create, POST} route","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/join/:gameId, PUT} route","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getall/:mode?, GET} route","timestamp":"2023-08-20T20:02:39.114Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/quit, POST} route","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/isingame, GET} route","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getleague, GET} route","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/pop, GET} route","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RoutesResolver","level":"info","message":"MatchmakingController {/api/matchmaking}:","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/start, POST} route","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/stop, POST} route","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/update, GET} route","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RoutesResolver","level":"info","message":"StatsController {/api/stats}:","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/status, GET} route","timestamp":"2023-08-20T20:02:39.115Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/get/:userId, GET} route","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RoutesResolver","level":"info","message":"TrainingController {/api/training}:","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/status, GET} route","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/create, POST} route","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/get/:id, GET} route","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/isInTraining, GET} route","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/update/:id, PUT} route","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/quit/:id, POST} route","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/api/users}:","timestamp":"2023-08-20T20:02:39.116Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/me, GET} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/myAvatar, GET} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/profile/:id, GET} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/avatar/:id, GET} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/email, GET} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/login, GET} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users, PUT} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnect/:id, DELETE} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnectByToken, DELETE} route","timestamp":"2023-08-20T20:02:39.117Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/changeLogin, PUT} route","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/checkPassword, POST} route","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/updatePassword, PUT} route","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RoutesResolver","level":"info","message":"ScoreController {/api/score}:","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/game/:gameId, GET} route","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/update, PUT} route","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RoutesResolver","level":"info","message":"TwoFactorAuthenticationController {/api/2fa}:","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/generate, GET} route","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/sendCode, GET} route","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyCode, POST} route","timestamp":"2023-08-20T20:02:39.118Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/activate, POST} route","timestamp":"2023-08-20T20:02:39.119Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/deactivate, POST} route","timestamp":"2023-08-20T20:02:39.119Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/authenticate, POST} route","timestamp":"2023-08-20T20:02:39.119Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/backupCodes, GET} route","timestamp":"2023-08-20T20:02:39.119Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyAuthCode, POST} route","timestamp":"2023-08-20T20:02:39.119Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/getAccountBack, POST} route","timestamp":"2023-08-20T20:02:39.119Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-08-20T20:02:39.122Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-08-20T20:03:31.970Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-08-20T20:03:32.006Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.006Z"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized","timestamp":"2023-08-20T20:03:32.007Z"}
+{"context":"InstanceLoader","level":"info","message":"MailModule dependencies initialized","timestamp":"2023-08-20T20:03:32.007Z"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-08-20T20:03:32.007Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-08-20T20:03:32.007Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-08-20T20:03:32.008Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2023-08-20T20:03:32.130Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.130Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.130Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.130Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:32.131Z"}
+{"context":"InstanceLoader","level":"info","message":"StatsModule dependencies initialized","timestamp":"2023-08-20T20:03:32.132Z"}
+{"context":"InstanceLoader","level":"info","message":"ScoreModule dependencies initialized","timestamp":"2023-08-20T20:03:32.132Z"}
+{"context":"InstanceLoader","level":"info","message":"MessageModule dependencies initialized","timestamp":"2023-08-20T20:03:32.133Z"}
+{"context":"InstanceLoader","level":"info","message":"ChannelModule dependencies initialized","timestamp":"2023-08-20T20:03:32.133Z"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-08-20T20:03:32.134Z"}
+{"context":"InstanceLoader","level":"info","message":"TrainingModule dependencies initialized","timestamp":"2023-08-20T20:03:32.134Z"}
+{"context":"InstanceLoader","level":"info","message":"TwoFactorAuthenticationModule dependencies initialized","timestamp":"2023-08-20T20:03:32.134Z"}
+{"context":"InstanceLoader","level":"info","message":"AvatarModule dependencies initialized","timestamp":"2023-08-20T20:03:32.134Z"}
+{"context":"InstanceLoader","level":"info","message":"MatchmakingModule dependencies initialized","timestamp":"2023-08-20T20:03:32.134Z"}
+{"context":"InstanceLoader","level":"info","message":"ChatModule dependencies initialized","timestamp":"2023-08-20T20:03:32.135Z"}
+{"context":"InstanceLoader","level":"info","message":"GameModule dependencies initialized","timestamp":"2023-08-20T20:03:32.135Z"}
+{"context":"InstanceLoader","level":"info","message":"LobbyModule dependencies initialized","timestamp":"2023-08-20T20:03:32.135Z"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-08-20T20:03:32.135Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"newMsg\" message","timestamp":"2023-08-20T20:03:32.146Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"notif\" message","timestamp":"2023-08-20T20:03:32.146Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotif\" message","timestamp":"2023-08-20T20:03:32.146Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotifMsg\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"clearNotif\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getLoginWithAvatar\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannel\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannels\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllChannels\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongie\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongies\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllPongies\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"addPongie\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"deletePongie\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelInvitation\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelBlacklist\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"blacklist\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"leave\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getMessages\" message","timestamp":"2023-08-20T20:03:32.147Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelName\" message","timestamp":"2023-08-20T20:03:32.148Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelUsers\" message","timestamp":"2023-08-20T20:03:32.148Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"editRelation\" message","timestamp":"2023-08-20T20:03:32.148Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:03:32.148Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"pong\" message","timestamp":"2023-08-20T20:03:32.148Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"action\" message","timestamp":"2023-08-20T20:03:32.148Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"quit\" message","timestamp":"2023-08-20T20:03:32.148Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/auth}:","timestamp":"2023-08-20T20:03:32.149Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/42, GET} route","timestamp":"2023-08-20T20:03:32.151Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/register, POST} route","timestamp":"2023-08-20T20:03:32.151Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/verifyCode/:code, GET} route","timestamp":"2023-08-20T20:03:32.151Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google, GET} route","timestamp":"2023-08-20T20:03:32.151Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google/callback, GET} route","timestamp":"2023-08-20T20:03:32.152Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/firstLogin, POST} route","timestamp":"2023-08-20T20:03:32.152Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/login, POST} route","timestamp":"2023-08-20T20:03:32.152Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refresh, POST} route","timestamp":"2023-08-20T20:03:32.152Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refreshToken, POST} route","timestamp":"2023-08-20T20:03:32.152Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/sendPassword, POST} route","timestamp":"2023-08-20T20:03:32.153Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/forgotPassword, POST} route","timestamp":"2023-08-20T20:03:32.153Z"}
+{"context":"RoutesResolver","level":"info","message":"AvatarController {/api/avatar}:","timestamp":"2023-08-20T20:03:32.153Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, GET} route","timestamp":"2023-08-20T20:03:32.153Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar/:id/:isChannel, GET} route","timestamp":"2023-08-20T20:03:32.153Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, PUT} route","timestamp":"2023-08-20T20:03:32.154Z"}
+{"context":"RoutesResolver","level":"info","message":"ChannelController {/api/channel}:","timestamp":"2023-08-20T20:03:32.154Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/:id, GET} route","timestamp":"2023-08-20T20:03:32.154Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/editRelation, PUT} route","timestamp":"2023-08-20T20:03:32.154Z"}
+{"context":"RoutesResolver","level":"info","message":"LobbyController {/api/lobby}:","timestamp":"2023-08-20T20:03:32.154Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/status, GET} route","timestamp":"2023-08-20T20:03:32.154Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/create, POST} route","timestamp":"2023-08-20T20:03:32.154Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/join/:gameId, PUT} route","timestamp":"2023-08-20T20:03:32.154Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getall/:mode?, GET} route","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/quit, POST} route","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/isingame, GET} route","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getleague, GET} route","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/pop, GET} route","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RoutesResolver","level":"info","message":"MatchmakingController {/api/matchmaking}:","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/start, POST} route","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/stop, POST} route","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/update, GET} route","timestamp":"2023-08-20T20:03:32.155Z"}
+{"context":"RoutesResolver","level":"info","message":"StatsController {/api/stats}:","timestamp":"2023-08-20T20:03:32.156Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/status, GET} route","timestamp":"2023-08-20T20:03:32.156Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/get/:userId, GET} route","timestamp":"2023-08-20T20:03:32.156Z"}
+{"context":"RoutesResolver","level":"info","message":"TrainingController {/api/training}:","timestamp":"2023-08-20T20:03:32.156Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/status, GET} route","timestamp":"2023-08-20T20:03:32.156Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/create, POST} route","timestamp":"2023-08-20T20:03:32.156Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/get/:id, GET} route","timestamp":"2023-08-20T20:03:32.156Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/isInTraining, GET} route","timestamp":"2023-08-20T20:03:32.156Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/update/:id, PUT} route","timestamp":"2023-08-20T20:03:32.157Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/quit/:id, POST} route","timestamp":"2023-08-20T20:03:32.157Z"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/api/users}:","timestamp":"2023-08-20T20:03:32.157Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/me, GET} route","timestamp":"2023-08-20T20:03:32.157Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/myAvatar, GET} route","timestamp":"2023-08-20T20:03:32.157Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/profile/:id, GET} route","timestamp":"2023-08-20T20:03:32.157Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/avatar/:id, GET} route","timestamp":"2023-08-20T20:03:32.157Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/email, GET} route","timestamp":"2023-08-20T20:03:32.157Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/login, GET} route","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users, PUT} route","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnect/:id, DELETE} route","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnectByToken, DELETE} route","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/changeLogin, PUT} route","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/checkPassword, POST} route","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/updatePassword, PUT} route","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RoutesResolver","level":"info","message":"ScoreController {/api/score}:","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/game/:gameId, GET} route","timestamp":"2023-08-20T20:03:32.158Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/update, PUT} route","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RoutesResolver","level":"info","message":"TwoFactorAuthenticationController {/api/2fa}:","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/generate, GET} route","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/sendCode, GET} route","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyCode, POST} route","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/activate, POST} route","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/deactivate, POST} route","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/authenticate, POST} route","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/backupCodes, GET} route","timestamp":"2023-08-20T20:03:32.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyAuthCode, POST} route","timestamp":"2023-08-20T20:03:32.160Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/getAccountBack, POST} route","timestamp":"2023-08-20T20:03:32.160Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-08-20T20:03:32.162Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-08-20T20:03:40.688Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-08-20T20:03:40.732Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.732Z"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized","timestamp":"2023-08-20T20:03:40.732Z"}
+{"context":"InstanceLoader","level":"info","message":"MailModule dependencies initialized","timestamp":"2023-08-20T20:03:40.732Z"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-08-20T20:03:40.733Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-08-20T20:03:40.733Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-08-20T20:03:40.733Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2023-08-20T20:03:40.872Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.872Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:03:40.873Z"}
+{"context":"InstanceLoader","level":"info","message":"StatsModule dependencies initialized","timestamp":"2023-08-20T20:03:40.875Z"}
+{"context":"InstanceLoader","level":"info","message":"ScoreModule dependencies initialized","timestamp":"2023-08-20T20:03:40.875Z"}
+{"context":"InstanceLoader","level":"info","message":"MessageModule dependencies initialized","timestamp":"2023-08-20T20:03:40.875Z"}
+{"context":"InstanceLoader","level":"info","message":"ChannelModule dependencies initialized","timestamp":"2023-08-20T20:03:40.875Z"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-08-20T20:03:40.876Z"}
+{"context":"InstanceLoader","level":"info","message":"TrainingModule dependencies initialized","timestamp":"2023-08-20T20:03:40.876Z"}
+{"context":"InstanceLoader","level":"info","message":"TwoFactorAuthenticationModule dependencies initialized","timestamp":"2023-08-20T20:03:40.876Z"}
+{"context":"InstanceLoader","level":"info","message":"AvatarModule dependencies initialized","timestamp":"2023-08-20T20:03:40.876Z"}
+{"context":"InstanceLoader","level":"info","message":"MatchmakingModule dependencies initialized","timestamp":"2023-08-20T20:03:40.877Z"}
+{"context":"InstanceLoader","level":"info","message":"ChatModule dependencies initialized","timestamp":"2023-08-20T20:03:40.877Z"}
+{"context":"InstanceLoader","level":"info","message":"GameModule dependencies initialized","timestamp":"2023-08-20T20:03:40.877Z"}
+{"context":"InstanceLoader","level":"info","message":"LobbyModule dependencies initialized","timestamp":"2023-08-20T20:03:40.877Z"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-08-20T20:03:40.877Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"newMsg\" message","timestamp":"2023-08-20T20:03:40.889Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"notif\" message","timestamp":"2023-08-20T20:03:40.889Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotif\" message","timestamp":"2023-08-20T20:03:40.889Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotifMsg\" message","timestamp":"2023-08-20T20:03:40.889Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"clearNotif\" message","timestamp":"2023-08-20T20:03:40.889Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getLoginWithAvatar\" message","timestamp":"2023-08-20T20:03:40.889Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannel\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannels\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllChannels\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongie\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongies\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllPongies\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"addPongie\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"deletePongie\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelInvitation\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelBlacklist\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"blacklist\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"leave\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getMessages\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelName\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelUsers\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"editRelation\" message","timestamp":"2023-08-20T20:03:40.890Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:03:40.891Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"pong\" message","timestamp":"2023-08-20T20:03:40.891Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"action\" message","timestamp":"2023-08-20T20:03:40.891Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"quit\" message","timestamp":"2023-08-20T20:03:40.891Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/auth}:","timestamp":"2023-08-20T20:03:40.892Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/42, GET} route","timestamp":"2023-08-20T20:03:40.893Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/register, POST} route","timestamp":"2023-08-20T20:03:40.894Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/verifyCode/:code, GET} route","timestamp":"2023-08-20T20:03:40.894Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google, GET} route","timestamp":"2023-08-20T20:03:40.894Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google/callback, GET} route","timestamp":"2023-08-20T20:03:40.894Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/firstLogin, POST} route","timestamp":"2023-08-20T20:03:40.895Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/login, POST} route","timestamp":"2023-08-20T20:03:40.895Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refresh, POST} route","timestamp":"2023-08-20T20:03:40.895Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refreshToken, POST} route","timestamp":"2023-08-20T20:03:40.895Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/sendPassword, POST} route","timestamp":"2023-08-20T20:03:40.896Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/forgotPassword, POST} route","timestamp":"2023-08-20T20:03:40.896Z"}
+{"context":"RoutesResolver","level":"info","message":"AvatarController {/api/avatar}:","timestamp":"2023-08-20T20:03:40.896Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, GET} route","timestamp":"2023-08-20T20:03:40.896Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar/:id/:isChannel, GET} route","timestamp":"2023-08-20T20:03:40.896Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, PUT} route","timestamp":"2023-08-20T20:03:40.896Z"}
+{"context":"RoutesResolver","level":"info","message":"ChannelController {/api/channel}:","timestamp":"2023-08-20T20:03:40.896Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/:id, GET} route","timestamp":"2023-08-20T20:03:40.897Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/editRelation, PUT} route","timestamp":"2023-08-20T20:03:40.897Z"}
+{"context":"RoutesResolver","level":"info","message":"LobbyController {/api/lobby}:","timestamp":"2023-08-20T20:03:40.897Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/status, GET} route","timestamp":"2023-08-20T20:03:40.897Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/create, POST} route","timestamp":"2023-08-20T20:03:40.897Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/join/:gameId, PUT} route","timestamp":"2023-08-20T20:03:40.897Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getall/:mode?, GET} route","timestamp":"2023-08-20T20:03:40.897Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/quit, POST} route","timestamp":"2023-08-20T20:03:40.897Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/isingame, GET} route","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getleague, GET} route","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/pop, GET} route","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RoutesResolver","level":"info","message":"MatchmakingController {/api/matchmaking}:","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/start, POST} route","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/stop, POST} route","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/update, GET} route","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RoutesResolver","level":"info","message":"StatsController {/api/stats}:","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/status, GET} route","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/get/:userId, GET} route","timestamp":"2023-08-20T20:03:40.898Z"}
+{"context":"RoutesResolver","level":"info","message":"TrainingController {/api/training}:","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/status, GET} route","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/create, POST} route","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/get/:id, GET} route","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/isInTraining, GET} route","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/update/:id, PUT} route","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/quit/:id, POST} route","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/api/users}:","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/me, GET} route","timestamp":"2023-08-20T20:03:40.899Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/myAvatar, GET} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/profile/:id, GET} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/avatar/:id, GET} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/email, GET} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/login, GET} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users, PUT} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnect/:id, DELETE} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnectByToken, DELETE} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/changeLogin, PUT} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/checkPassword, POST} route","timestamp":"2023-08-20T20:03:40.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/updatePassword, PUT} route","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RoutesResolver","level":"info","message":"ScoreController {/api/score}:","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/game/:gameId, GET} route","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/update, PUT} route","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RoutesResolver","level":"info","message":"TwoFactorAuthenticationController {/api/2fa}:","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/generate, GET} route","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/sendCode, GET} route","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyCode, POST} route","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/activate, POST} route","timestamp":"2023-08-20T20:03:40.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/deactivate, POST} route","timestamp":"2023-08-20T20:03:40.902Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/authenticate, POST} route","timestamp":"2023-08-20T20:03:40.902Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/backupCodes, GET} route","timestamp":"2023-08-20T20:03:40.902Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyAuthCode, POST} route","timestamp":"2023-08-20T20:03:40.902Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/getAccountBack, POST} route","timestamp":"2023-08-20T20:03:40.902Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-08-20T20:03:40.906Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2023-08-20T20:04:36.377Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2023-08-20T20:04:36.420Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.421Z"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized","timestamp":"2023-08-20T20:04:36.421Z"}
+{"context":"InstanceLoader","level":"info","message":"MailModule dependencies initialized","timestamp":"2023-08-20T20:04:36.421Z"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","timestamp":"2023-08-20T20:04:36.422Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","timestamp":"2023-08-20T20:04:36.422Z"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","timestamp":"2023-08-20T20:04:36.422Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2023-08-20T20:04:36.529Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.530Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.531Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.531Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2023-08-20T20:04:36.531Z"}
+{"context":"InstanceLoader","level":"info","message":"StatsModule dependencies initialized","timestamp":"2023-08-20T20:04:36.532Z"}
+{"context":"InstanceLoader","level":"info","message":"ScoreModule dependencies initialized","timestamp":"2023-08-20T20:04:36.532Z"}
+{"context":"InstanceLoader","level":"info","message":"MessageModule dependencies initialized","timestamp":"2023-08-20T20:04:36.532Z"}
+{"context":"InstanceLoader","level":"info","message":"ChannelModule dependencies initialized","timestamp":"2023-08-20T20:04:36.533Z"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized","timestamp":"2023-08-20T20:04:36.533Z"}
+{"context":"InstanceLoader","level":"info","message":"TrainingModule dependencies initialized","timestamp":"2023-08-20T20:04:36.533Z"}
+{"context":"InstanceLoader","level":"info","message":"TwoFactorAuthenticationModule dependencies initialized","timestamp":"2023-08-20T20:04:36.533Z"}
+{"context":"InstanceLoader","level":"info","message":"AvatarModule dependencies initialized","timestamp":"2023-08-20T20:04:36.534Z"}
+{"context":"InstanceLoader","level":"info","message":"MatchmakingModule dependencies initialized","timestamp":"2023-08-20T20:04:36.534Z"}
+{"context":"InstanceLoader","level":"info","message":"ChatModule dependencies initialized","timestamp":"2023-08-20T20:04:36.534Z"}
+{"context":"InstanceLoader","level":"info","message":"GameModule dependencies initialized","timestamp":"2023-08-20T20:04:36.534Z"}
+{"context":"InstanceLoader","level":"info","message":"LobbyModule dependencies initialized","timestamp":"2023-08-20T20:04:36.534Z"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized","timestamp":"2023-08-20T20:04:36.534Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"newMsg\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"notif\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotif\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getNotifMsg\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"clearNotif\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getLoginWithAvatar\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannel\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannels\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllChannels\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongie\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getPongies\" message","timestamp":"2023-08-20T20:04:36.546Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getAllPongies\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"addPongie\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"deletePongie\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelInvitation\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"cancelBlacklist\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"blacklist\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"leave\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getMessages\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelName\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"getChannelUsers\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"ChatGateway subscribed to the \"editRelation\" message","timestamp":"2023-08-20T20:04:36.547Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"join\" message","timestamp":"2023-08-20T20:04:36.548Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"pong\" message","timestamp":"2023-08-20T20:04:36.548Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"action\" message","timestamp":"2023-08-20T20:04:36.548Z"}
+{"context":"WebSocketsController","level":"info","message":"GameGateway subscribed to the \"quit\" message","timestamp":"2023-08-20T20:04:36.548Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/auth}:","timestamp":"2023-08-20T20:04:36.549Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/42, GET} route","timestamp":"2023-08-20T20:04:36.550Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/register, POST} route","timestamp":"2023-08-20T20:04:36.550Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/verifyCode/:code, GET} route","timestamp":"2023-08-20T20:04:36.551Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google, GET} route","timestamp":"2023-08-20T20:04:36.551Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/google/callback, GET} route","timestamp":"2023-08-20T20:04:36.551Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/firstLogin, POST} route","timestamp":"2023-08-20T20:04:36.551Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/login, POST} route","timestamp":"2023-08-20T20:04:36.551Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refresh, POST} route","timestamp":"2023-08-20T20:04:36.552Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/refreshToken, POST} route","timestamp":"2023-08-20T20:04:36.552Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/sendPassword, POST} route","timestamp":"2023-08-20T20:04:36.552Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/auth/forgotPassword, POST} route","timestamp":"2023-08-20T20:04:36.552Z"}
+{"context":"RoutesResolver","level":"info","message":"AvatarController {/api/avatar}:","timestamp":"2023-08-20T20:04:36.552Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, GET} route","timestamp":"2023-08-20T20:04:36.553Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar/:id/:isChannel, GET} route","timestamp":"2023-08-20T20:04:36.553Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/avatar, PUT} route","timestamp":"2023-08-20T20:04:36.553Z"}
+{"context":"RoutesResolver","level":"info","message":"ChannelController {/api/channel}:","timestamp":"2023-08-20T20:04:36.553Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/:id, GET} route","timestamp":"2023-08-20T20:04:36.553Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/channel/editRelation, PUT} route","timestamp":"2023-08-20T20:04:36.553Z"}
+{"context":"RoutesResolver","level":"info","message":"LobbyController {/api/lobby}:","timestamp":"2023-08-20T20:04:36.553Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/status, GET} route","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/create, POST} route","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/join/:gameId, PUT} route","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getall/:mode?, GET} route","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/quit, POST} route","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/isingame, GET} route","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/getleague, GET} route","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/lobby/pop, GET} route","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RoutesResolver","level":"info","message":"MatchmakingController {/api/matchmaking}:","timestamp":"2023-08-20T20:04:36.554Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/start, POST} route","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/stop, POST} route","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/matchmaking/update, GET} route","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RoutesResolver","level":"info","message":"StatsController {/api/stats}:","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/status, GET} route","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/stats/get/:userId, GET} route","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RoutesResolver","level":"info","message":"TrainingController {/api/training}:","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/status, GET} route","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/create, POST} route","timestamp":"2023-08-20T20:04:36.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/get/:id, GET} route","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/isInTraining, GET} route","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/update/:id, PUT} route","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/training/quit/:id, POST} route","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/api/users}:","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/me, GET} route","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/myAvatar, GET} route","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/profile/:id, GET} route","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/avatar/:id, GET} route","timestamp":"2023-08-20T20:04:36.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/email, GET} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/login, GET} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users, PUT} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnect/:id, DELETE} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/disconnectByToken, DELETE} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/changeLogin, PUT} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/checkPassword, POST} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/users/updatePassword, PUT} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RoutesResolver","level":"info","message":"ScoreController {/api/score}:","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/game/:gameId, GET} route","timestamp":"2023-08-20T20:04:36.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/score/update, PUT} route","timestamp":"2023-08-20T20:04:36.558Z"}
+{"context":"RoutesResolver","level":"info","message":"TwoFactorAuthenticationController {/api/2fa}:","timestamp":"2023-08-20T20:04:36.558Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/generate, GET} route","timestamp":"2023-08-20T20:04:36.558Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/sendCode, GET} route","timestamp":"2023-08-20T20:04:36.558Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyCode, POST} route","timestamp":"2023-08-20T20:04:36.558Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/activate, POST} route","timestamp":"2023-08-20T20:04:36.558Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/deactivate, POST} route","timestamp":"2023-08-20T20:04:36.558Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/authenticate, POST} route","timestamp":"2023-08-20T20:04:36.558Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/backupCodes, GET} route","timestamp":"2023-08-20T20:04:36.559Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/verifyAuthCode, POST} route","timestamp":"2023-08-20T20:04:36.559Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/2fa/getAccountBack, POST} route","timestamp":"2023-08-20T20:04:36.559Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2023-08-20T20:04:36.562Z"}
